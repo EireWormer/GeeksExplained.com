@@ -1,0 +1,150 @@
+/**
+ * ------------------------------------------------------ *
+ * variables
+ * ------------------------------------------------------ *
+**/
+:root {
+    --primary: #009B48;
+    --secondary: #FF7900;
+    --tertiary: #ffffff;
+    --quaternary: #ececec;
+}
+
+/**
+ * ------------------------------------------------------ *
+ * reset - removing unwanted default styles
+ * ------------------------------------------------------ *
+**/
+body, a, p, ul, li, input, button, img {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    
+} 
+
+li {
+    list-style-type: none;
+}
+
+/**
+ * ------------------------------------------------------ *
+ * base styles
+ * ------------------------------------------------------ *
+**/
+body {
+    background: var(--quaternary);
+    font-family: 'Roboto 300 Regular';
+    /**overflow-x: hidden;**/
+}
+
+/**
+ * ------------------------------------------------------ *
+ * fonts
+ * ------------------------------------------------------ *
+**/
+@font-face {
+    font-family: "Roboto 300 Regular";
+    src: url("../fonts/Roboto-300.ttf")
+}
+
+@font-face {
+    font-family: "Roboto 300 Italic";
+    src: url("../fonts/Roboto-300-Italic.ttf")
+}
+
+@font-face {
+    font-family: "Roboto 400 Regular";
+    src: url("../fonts/Roboto-400.ttf")
+}
+
+@font-face {
+    font-family: "Roboto 400 Italic";
+    src: url("../fonts/Roboto-400-Italic.ttf")
+}
+
+@font-face {
+    font-family: "Roboto 500 Regular";
+    src: url("../fonts/Roboto-500.ttf")
+}
+
+@font-face {
+    font-family: "Roboto 500 Italic";
+    src: url("../fonts/Roboto-500-Italic.ttf")
+}
+
+/**
+ * ------------------------------------------------------ *
+ * mobile styles
+ * ------------------------------------------------------ *
+**/
+
+/* header */
+header {
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2);
+    background: var(--tertiary);
+    padding: 2px 0;
+}
+
+#header-logo {
+    max-width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+#header-motto {
+    text-align: center;
+    font-size: 0.75rem;
+    letter-spacing: 0.4px;
+}
+
+#header-search {
+    margin: 10px auto;
+    width: 80%;
+    box-sizing: border-box;
+    white-space: nowrap;
+}
+
+#header-search > input[type=text] {
+    padding: 10px;
+    float: left;
+    width: 70%;
+    background: #f1f1f1;
+    border-radius: 10px 0 0 10px;
+}
+
+#header-search > button[type=submit] {
+    width: 20%;
+    padding: 4px;
+    border-radius: 0 10px 10px 0;
+}
+
+#header-button-search-icon {
+    width: 50%;
+}
+
+/**
+ * ------------------------------------------------------ *
+ * small tablets styles
+ * ------------------------------------------------------ *
+**/
+@media screen and (min-width: 620px) {
+
+}
+
+/**
+ * ------------------------------------------------------ *
+ * large tablets & laptop styles
+ * ------------------------------------------------------ *
+**/
+@media screen and (min-width: 960px) {
+
+}
+
+/**
+ * ------------------------------------------------------ *
+ * desktop styles
+ * ------------------------------------------------------ *
+**/
+@media screen and (min-width: 1200px) {
+
+}
