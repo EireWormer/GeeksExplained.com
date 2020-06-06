@@ -18,10 +18,11 @@ button {
   margin: 1rem;
   box-shadow: 0 0 1px rgba(0, 0, 0, 0.6);
   margin-bottom: 2rem;
+  max-width: 95%;
 }
 
 .container {
-  padding: 2px 16px;
+  padding: 2px 1rem;
 }
 
 .card_title {
@@ -92,6 +93,10 @@ form > button {
  * ------------------------------------------------------ *
 **/
 @media screen and (min-width: 620px) {
+  .card {
+    margin: 1rem auto;
+    margin-bottom: 2rem;
+  }
 }
 
 /**
@@ -100,6 +105,10 @@ form > button {
 * ------------------------------------------------------ *
 **/
 @media screen and (min-width: 960px) {
+  .card {
+    margin: 2rem auto;
+    max-width: 45rem;
+  }
 }
 
 /**
