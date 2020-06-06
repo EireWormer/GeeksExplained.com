@@ -148,7 +148,7 @@ main {
 
 /* footer */
 footer {
-  height: 6.25rem;
+  height: 7.25rem;
   width: 100%;
   position: absolute;
   bottom: 0;
@@ -171,6 +171,17 @@ footer > ul > li > a {
  * ------------------------------------------------------ *
 **/
 @media screen and (min-width: 620px) {
+  #header-logo {
+    max-width: 40%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  #header-motto {
+    text-align: center;
+    font-size: 0.85rem;
+    letter-spacing: 0.4px;
+  }
 }
 
 /**
@@ -179,6 +190,51 @@ footer > ul > li > a {
  * ------------------------------------------------------ *
 **/
 @media screen and (min-width: 960px) {
+  #header-logo-motto-container {
+    max-width: 18%;
+    margin-left: 1rem;
+    display: inline-block;
+  }
+
+  #header-logo {
+    max-width: 100%;
+    margin: 0;
+  }
+
+  #header-motto {
+    text-align: center;
+    font-size: 0.75rem;
+    letter-spacing: 0.4px;
+  }
+
+  #header-search {
+    margin: 1.25rem 1rem 0 0;
+    width: 40%;
+    float: right;
+    height: 40px;
+  }
+
+  #header-search > input[type="text"] {
+    font-size: 1rem;
+    float: left;
+    height: 100%;
+    width: 75%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background: var(--quaternary);
+    border: none;
+    border-radius: 10px 0 0 10px;
+  }
+
+  #header-search > button[type="submit"] {
+    width: 15%;
+    height: 100%;
+    border-radius: 0 10px 10px 0;
+    background: var(--primary);
+    opacity: 0.8;
+    border: none;
+    cursor: pointer;
+  }
 }
 
 /**
@@ -187,4 +243,16 @@ footer > ul > li > a {
  * ------------------------------------------------------ *
 **/
 @media screen and (min-width: 1200px) {
+  #header-logo-motto-container {
+    max-width: 14%;
+    margin-left: 1rem;
+    display: inline-block;
+  }
+
+  #header-search {
+    margin: 1.25rem 1rem 0 0;
+    width: 30%;
+    float: right;
+    height: 40px;
+  }
 }
