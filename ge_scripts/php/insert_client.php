@@ -1,28 +1,32 @@
 <?php
-include "db.inc.php";
 
-$forename = "Anthony";
-$email = "anthonyrb@pm.me"; 
-$joindate = "2020-06-07";
+if( isset($_POST['forename']) && isset($_POST['client_email']) )
+{
+    include "db.inc.php";
 
-$query = '
-INSERT INTO client_emails(
-    first_name,
-    address,
-    join_date
-) VALUES (
-    "' . $forename . '",
-    "' . $email . '",
-    "' . $joindate . '"
-);';
+    $forename = $_POST['forename'];
+    $email = $_POST['client_email']; 
+    $joindate = "2020-06-07"; # Get join date in this format
 
-// Execute query
-$result = mysqli_query($con, $query);
+    $query = '
+    INSERT INTO client_emails(
+        first_name,
+        address,
+        join_date
+    ) VALUES (
+        "' . $forename . '",
+        "' . $email . '",
+        "' . $joindate . '"
+    );';
 
-if ( ! $result ) 
-{	
-    die('Error: ' . mysqli_error($con));
+    // Execute query
+    $result = mysqli_query($con, $query);
+
+    if ( ! $result ) 
+    {	
+        die('Error: ' . mysqli_error($con));
+    }
+
+    mysqli_close($con);
 }
-
-mysqli_close($con);
 ?>
