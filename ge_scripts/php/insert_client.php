@@ -29,4 +29,8 @@ if( isset($_POST['forename']) && isset($_POST['client_email']) )
 
     mysqli_close($con);
 }
+else
+{
+    echo '<script>window.location.href = "https://www.geeksexplained.com/";</script>';
+}
 ?>
