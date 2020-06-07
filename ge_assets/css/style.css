@@ -94,6 +94,7 @@ button {
   font-family: "Roboto 500 Regular";
   font-size: 0.875rem;
   letter-spacing: 1.25px;
+  background: none;
 }
 
 .card {
