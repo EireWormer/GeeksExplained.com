@@ -1,12 +1,12 @@
 <?php
-$dbhostIP = "162.0.229.38";
-$dbusername = "geekbrfs";
-$dbpassword = "GDNjSdDDsueH";
+$dbhostIP = "127.0.0.1";
+$dbusername = "root"; /* geekbrfs */
+$dbpassword = "P3nt3st;2020"; /* GDNjSdDDsueH */
 $database = "geekbrfs_geeksexplained";
 
-$connection = mysqli_connect( $dbhostIP, $dbusername, $dbpassword, $database );
+$con = mysqli_connect( $dbhostIP, $dbusername, $dbpassword, $database );
 
-if( ! $connection ) {
+if(!$con) {
     die( "Failed to connect to MySQL: " . mysqli_connect_error() );
 }
 ?>
