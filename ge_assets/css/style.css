@@ -206,8 +206,8 @@ footer > ul > li > a {
   }
 
   #header-search {
-    margin: 1.25rem 1rem 0 0;
-    width: 40%;
+    margin: 1rem 1rem 0 0;
+    width: 35%;
     float: right;
     height: 40px;
   }
@@ -248,8 +248,8 @@ footer > ul > li > a {
   }
 
   #header-search {
-    margin: 1.25rem 1rem 0 0;
-    width: 30%;
+    margin: 0.8rem 0 0 0;
+    width: 25%;
     float: right;
     height: 40px;
   }
