@@ -95,6 +95,7 @@ header {
   padding-top: 5px;
 }
 
+/* logo & motto */
 #header-logo {
   max-width: 50%;
   display: block;
@@ -107,6 +108,20 @@ header {
   letter-spacing: 0.4px;
 }
 
+/* subscribe button */
+#subscribe_popup {
+  display: none;
+  border: 1px solid var(--secondary);
+  border-radius: 3px;
+  padding: 5px;
+  background: none;
+  color: var(--secondary);
+  font-family: "Roboto 500 Regular";
+  font-size: 1.15rem;
+  cursor: pointer;
+}
+
+/* search bar */
 #header-search {
   margin: 10px auto;
   width: 80%;
@@ -188,6 +203,7 @@ footer > ul > li > a {
  * ------------------------------------------------------ *
 **/
 @media screen and (min-width: 960px) {
+  /* logo & motto */
   #header-logo-motto-container {
     max-width: 18%;
     margin-left: 1rem;
@@ -205,6 +221,16 @@ footer > ul > li > a {
     letter-spacing: 0.4px;
   }
 
+  /* subscribe button */
+  #subscribe_popup {
+    float: right;
+    margin-right: 5rem;
+    margin-left: 3rem;
+    margin-top: 1.25rem;
+    display: initial;
+  }
+
+  /* search bar */
   #header-search {
     margin: 1rem 1rem 0 0;
     width: 35%;
@@ -241,14 +267,22 @@ footer > ul > li > a {
  * ------------------------------------------------------ *
 **/
 @media screen and (min-width: 1200px) {
+  /* logo & motto */
   #header-logo-motto-container {
     max-width: 14%;
     margin-left: 1rem;
     display: inline-block;
   }
 
+  /* subscribe button */
+  #subscribe_popup {
+    margin-top: 1rem;
+    margin-left: 17rem;
+  }
+
+  /* search bar */
   #header-search {
-    margin: 0.8rem 0 0 0;
+    margin: 1rem 0 0 0;
     width: 25%;
     float: right;
     height: 40px;
