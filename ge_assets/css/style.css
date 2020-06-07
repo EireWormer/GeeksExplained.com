@@ -41,6 +41,10 @@ body {
   font-family: "Roboto 300 Regular";
 }
 
+a[href=""] {
+  cursor: default;
+}
+
 /**
  * ------------------------------------------------------ *
  * fonts
