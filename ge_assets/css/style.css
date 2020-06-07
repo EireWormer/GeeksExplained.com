@@ -91,6 +91,50 @@ a[href=""] {
   min-height: 100vh;
 }
 
+/* mail-list subscribe popup */
+#sub-popup-bg {
+  clear: both;
+  position: absolute;
+  min-width: 100%;
+  max-width: 100%;
+  width: 100%;
+  min-height: 100%;
+  max-height: 100%;
+  height: 100%;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+#sub-popup-box {
+  position: fixed;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 80%;
+  max-width: 25rem;
+  height: 20;
+  padding: 1rem;
+  background: var(--tertiary);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 7);
+  border-radius: 5px;
+}
+
+#popup-close-button {
+  width: 2rem;
+  height: 2rem;
+  top: 1.6rem;
+  right: 1.6rem;
+  position: fixed;
+  background: none;
+  border: 2px solid black;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#popup-close-button > img {
+  max-width: 100%;
+}
+
 /* header */
 header {
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
@@ -160,12 +204,12 @@ header {
 
 /* main */
 main {
-  padding-bottom: 6.25rem;
+  padding-bottom: 6rem;
 }
 
 /* footer */
 footer {
-  height: 6.25rem;
+  height: 4.5rem;
   width: 100%;
   position: absolute;
   bottom: 0;
