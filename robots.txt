@@ -1,4 +1,6 @@
 User-agent: *
-Allow: /*
-Allow: /privacy_policy.html
-Allow: /contact.html
+Allow: /legal/privacy-policy/
+Allow: /legal/cookie-policy/
+Allow: /contact/contact-us/
+Disallow: /legal/
+Disallow: /contact/

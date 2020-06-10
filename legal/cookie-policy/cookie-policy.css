@@ -1,0 +1,87 @@
+/**
+ * ------------------------------------------------------ *
+ * variables
+ * ------------------------------------------------------ *
+**/
+
+/**
+    * ------------------------------------------------------ *
+    * mobile styles
+    * ------------------------------------------------------ *
+**/
+a {
+  color: var(--secondary);
+}
+
+.card {
+  margin: 2rem 0.25rem;
+  max-width: 99%;
+}
+
+.polic-container {
+  padding: 1rem;
+}
+
+#page-title {
+  font-size: 2rem;
+  font-family: "Roboto 500 Regular";
+}
+
+main > p {
+  margin: 1rem 0;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.list-spanner > ul > li {
+  list-style: inside;
+}
+
+.list-spanner {
+  margin-left: 1rem;
+}
+
+.heading {
+  font-size: 1.25em;
+  font-family: "Roboto 500 Regular";
+  margin-top: 2rem;
+}
+
+/**
+    * ------------------------------------------------------ *
+    * small tablets styles
+    * ------------------------------------------------------ *
+**/
+@media screen and (min-width: 620px) {
+  .card {
+    max-width: 90%;
+    margin: 2rem auto;
+  }
+
+  .list-spanner {
+    margin-left: 2.5rem;
+  }
+}
+
+/**
+    * ------------------------------------------------------ *
+    * large tablets & laptop styles
+    * ------------------------------------------------------ *
+**/
+@media screen and (min-width: 960px) {
+  .card {
+    max-width: 70%;
+  }
+}
+
+/**
+    * ------------------------------------------------------ *
+    * desktop styles
+    * ------------------------------------------------------ *
+**/
+@media screen and (min-width: 1200px) {
+  .card {
+    padding: 3rem 3rem;
+    max-width: 50%;
+  }
+}
