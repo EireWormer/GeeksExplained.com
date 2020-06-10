@@ -55,5 +55,5 @@
     <!-- scripts -->
     <script src="./ge_scripts/js/subPopupBox.js"></script>
     <script src="./ge_scripts/js/sideBarAnimation.js"></script>
-<body>
+</body>
 </html>

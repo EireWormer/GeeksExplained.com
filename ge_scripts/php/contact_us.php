@@ -92,11 +92,11 @@ function redirect( $sending_successful )
 {
     if($sending_successful)
     {
-        echo '<script>window.location.href = "https://www.geeksexplained.com/contact_thank_you.html";</script>';
+        echo '<script>window.location.href = "https://www.geeksexplained.com/contact/thank-you";</script>';
     } 
     else
     {
-        echo '<script>window.location.href = "https://www.geeksexplained.com/contact_sorry.html";</script>';
+        echo '<script>window.location.href = "https://www.geeksexplained.com/contact/sorry";</script>';
     }
 }
 
