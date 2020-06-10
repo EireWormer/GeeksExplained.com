@@ -1,6 +1,25 @@
 <!DOCTYPE html>
 <html lang="en-IE"> 	
 <head> 	
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-169108047-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-169108047-1');
+    </script>
+
+    <!-- Google Adsense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+    (adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: "ca-pub-8084760569637961",
+        enable_page_level_ads: true
+    });
+    </script>
+
+    <!-- metadata -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" 
@@ -31,15 +50,6 @@
     <!-- stylesheets -->
     <link rel="stylesheet" href="./ge_assets/css/style.css">
     <link rel="stylesheet" href="./ge_assets/css/homepage.css">
-
-    <!-- adverts -->
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <script>
-    (adsbygoogle = window.adsbygoogle || []).push({
-        google_ad_client: "ca-pub-8084760569637961",
-        enable_page_level_ads: true
-    });
-    </script>
 </head> 	
 <body> 	
     <article id="page-container">

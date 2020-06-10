@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="en-IE"> 	
 <head> 	
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-169108047-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-169108047-1');
+    </script>
+
+    <!-- metadata -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Contact Us | Oops, something went wrong | GeeksExplained</title>
