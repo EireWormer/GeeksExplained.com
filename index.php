@@ -31,6 +31,15 @@
     <!-- stylesheets -->
     <link rel="stylesheet" href="./ge_assets/css/style.css">
     <link rel="stylesheet" href="./ge_assets/css/homepage.css">
+
+    <!-- adverts -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+    (adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: "ca-pub-8084760569637961",
+        enable_page_level_ads: true
+    });
+    </script>
 </head> 	
 <body> 	
     <article id="page-container">
