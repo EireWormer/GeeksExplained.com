@@ -66,7 +66,7 @@
                             <li>debit card details;</li>
                             <li>information about your device (such as the IP address, which is a numerical code to identify your 
                                 device that can provide information about the country, region or city where you are based); and</li>
-                            <li>information relating to your personal circumstances and how you use our sites, apps and services.</li>
+                            <li>information relating to your personal circumstances and how you use our site.</li>
                         </ul>
                     </div>
                     <br>
@@ -76,19 +76,19 @@
                     
                 <div class="heading">Who we are and how to contact us</div>
                 <p>
-                    The data controller for our sites and apps is GeeksExplained. This means that we are responsible for deciding 
+                    The data controller for our site is GeeksExplained. This means that we are responsible for deciding 
                     how and why we hold and process your personal data. If you want to contact us, please email 
                     <i>support@geeksexplained.com</i>.
                 </p>
 
                 <div class="heading">What personal data we collect and how we use it</div>
                 <p>
-                    We collect personal data when you sign up for our services and when you browse our sites or use our apps. 
+                    We collect personal data when you sign up for our services and when you browse our site. 
                     This information is used to provide our articles and other services, display advertising and analyse how 
-                    visitors use our sites or apps.
+                    visitors use our site.
                 </p>
 
-                <div class="heading">The personal data we collect when you register for a Guardian account</div>
+                <div class="heading">The personal data we collect when you register for a GeeksExplained account</div>
                 <p>
                     When you register for a GeeksExplained account on geeksexplained.com we collect:
 
@@ -121,10 +121,14 @@
                     <br><br>
                     We will not collect special categories of data - such as information about your race, political opinions, 
                     religion, health or sexual orientation - unless you have chosen to provide that information to us.
-                    
-                    <div class="heading">Using Facebook or Google to sign into your GeeksExplained account</div>
+                </p>
+
+                <!-- This multiline comment is not part of the geeksexplained.com privacy policy. If it is added, it will follow the
+                    methods stated in the "Changes to the Privacy Policy" section.
+
+                <div class="heading">Using Facebook or Google to sign into your GeeksExplained account</div>
                     <br><br>
-                    When you sign in to our sites or apps using your Facebook login details, you give permission to Facebook to share 
+                    If you sign in to our site using your Facebook login details, you give permission to Facebook to share 
                     with us your email address and certain aspects of your Facebook profile if you have made these public on your 
                     Facebook profile. This only includes your first and last name, age range, link to your Facebook profile and profile 
                     picture. We do not have access to updates on your Facebook profile. If you use your Google login details, you 
@@ -136,7 +140,7 @@
                     from your Facebook settings, or if you remove the Guardian from your Google settings, we will no longer have 
                     access to this data. However, we will still have the information that we received when you first set up your 
                     Guardian account using your Facebook or Google login.
-                </p>
+                    -->
 
                 <div class="heading">How we collect personal data</div>
                 <p>
@@ -170,7 +174,7 @@
                                 what services you subscribe to (including what articles you read) to better understand what 
                                 your interests and preferences are, and to improve our marketing and notifications by making it more relevant to your 
                                 interests and preferences. You can opt out from having your personal data used for marketing analysis 
-                                by going into your account to the tab “Personalisation”.</li>
+                                by going to the tab “Personalisation”.</li>
                             <li>To improve our marketing and notification communications, we may use a similar technology to cookies to confirm whether 
                                 you have opened a marketing or notification email or clicked on a link in the email.</li>
                             <li>To sell advertising space on our site.</li>
@@ -198,7 +202,7 @@
                                 interest when we analyse what content has been viewed on our site, so that we can understand 
                                 how they are used. It is also in our legitimate interest to carry out marketing analysis to 
                                 determine what articles and services may be relevant to the interests of our readers. You 
-                                can opt out from having your personal data used for marketing analysis in your account in the 
+                                can opt out from having your personal data used for marketing analysis in the 
                                 “personalisation” tab.</li>
                             <li><i>Performance of a contract with you (or in order to take steps prior to entering into a contract 
                                 with you):</i>For example, where you have donated to us and we need to use your contact 
@@ -358,7 +362,7 @@
                                 set out for you in response to your request. Where applicable, you have the right to object to the
                                 processing of your personal data for certain purposes.</li>
                             <li>If you do not want us to use your personal data for marketing analysis, you can change your settings 
-                                in the “Personalisation” tab of your GeeksExplained account.</li>
+                                in the “Personalisation” tab.</li>
                         </ul>
                     </div>
                     <br>
