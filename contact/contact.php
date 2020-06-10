@@ -38,7 +38,7 @@
                 <article class="container">
                     <div class="card_title">Contact Us</div>
             
-                    <form action="https://www.geeksexplained.com/ge_scripts/php/contact_us.php" method="post">
+                    <form action="https://www.geeksexplained.com/ge_scripts/php/contact_us" method="post">
                         <div class="text_field_group">
                         <input type="email" name="email" class="text_field" placeholder="Your Email"/>
                         <label for="email" class="text_field_label">Email Address</label>
