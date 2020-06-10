@@ -24,13 +24,15 @@ if( isset($_POST['forename']) && isset($_POST['client_email']) )
 
     if ( ! $result ) 
     {	
-        die('Error: ' . mysqli_error($con));
+        echo '<script>window.location.href = "https://www.geeksexplained.com/contact/sorry/";</script>';
     }
 
     mysqli_close($con);
+    
+    echo '<script>window.location.href = "https://www.geeksexplained.com/contact/thank-you/";</script>';
 }
 else
 {
-    echo '<script>window.location.href = "https://www.geeksexplained.com/";</script>';
+    echo '<script>window.location.href = "https://www.geeksexplained.com/contact/sorry/";</script>';
 }
 ?>
