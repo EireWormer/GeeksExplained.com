@@ -26,12 +26,12 @@
     <!-- / Open Graph -->
 
     <!-- stylesheets -->
-    <link rel="stylesheet" href="../../ge_assets/css/style.css">
+    <link rel="stylesheet" href="../ge_assets/css/style.css">
     <link rel="stylesheet" href="./privacy-policy.css">
-</head> 	
-<body> 	
+</head>
+<body>
     <article id="page-container">
-        <?php include '../../header.html' ?>
+        <?php include '../header.html' ?>
 
         <main>
             <article class="card polic-container">
@@ -301,7 +301,7 @@
                     When you visit our site, we may collect personal data from you automatically using cookies or similar technology. 
                     A cookie is a small file that can be placed on your device that allows us to recognise and remember you.
                     <br><br>
-                    This privacy policy includes our <a href="../cookie-policy/">cookie policy</a>, where you can find details of our key advertising partners.
+                    This privacy policy includes our <a href="cookie-policy">cookie policy</a>, where you can find details of our key advertising partners.
                 </p>
 
                 <div class="heading">Online advertising</div>
@@ -394,7 +394,7 @@
 
         <footer>
             <ul>
-                <li><a href="../../contact/contact-us/">Contact us</a></li>
+                <li><a href="../contact/contact">Contact us</a></li>
                 <li><a href="">Privacy policy</a></li>
                 <li><a href="">@GeeksExplained, Some rights reserved</a></li>
             </ul>
@@ -402,7 +402,7 @@
     </article>
 
     <!-- scripts -->
-    <script src="../../ge_scripts/js/subPopupBox.js"></script>
-    <script src="../../ge_scripts/js/sideBarAnimation.js"></script>
+    <script src="../ge_scripts/js/subPopupBox.js"></script>
+    <script src="../ge_scripts/js/sideBarAnimation.js"></script>
 <body> 	
 </html>

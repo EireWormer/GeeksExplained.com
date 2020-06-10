@@ -7,11 +7,11 @@
     <link rel="shortcut icon" href="https://www.geeksexplained.com/ge_assets/img/icon/favicon.ico" type="image/x-icon" />
 
     <!-- stylesheets -->
-    <link rel="stylesheet" href="../../ge_assets/css/style.css">
+    <link rel="stylesheet" href="../ge_assets/css/style.css">
 </head> 	
 <body> 	
     <article id="page-container">
-        <?php include '../../header.html' ?>
+        <?php include '../header.html' ?>
 
         <main>
             <article class="card">
@@ -23,15 +23,15 @@
 
         <footer>
             <ul>
-                <li><a href="../contact-us/">Contact us</a></li>
-                <li><a href="../../legal/privacy-policy/">Privacy policy</a></li>
+                <li><a href="./contact">Contact us</a></li>
+                <li><a href="../legal/privacy-policy">Privacy policy</a></li>
                 <li><a href="">@GeeksExplained, Some rights reserved</a></li>
             </ul>
         </footer>
     </article>
 
     <!-- scripts -->
-    <script src="../../ge_scripts/js/subPopupBox.js"></script>
-    <script src="../../ge_scripts/js/sideBarAnimation.js"></script>
+    <script src="../ge_scripts/js/subPopupBox.js"></script>
+    <script src="../ge_scripts/js/sideBarAnimation.js"></script>
 <body> 	
 </html>

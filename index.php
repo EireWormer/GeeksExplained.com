@@ -45,8 +45,8 @@
 
         <footer>
             <ul>
-                <li><a href="./contact/contact-us/">Contact us</a></li>
-                <li><a href="./legal/privacy-policy/">Privacy policy</a></li>
+                <li><a href="./contact/contact">Contact us</a></li>
+                <li><a href="./legal/privacy-policy">Privacy policy</a></li>
                 <li><a href="">@GeeksExplained, Some rights reserved</a></li>
             </ul>
         </footer>
@@ -55,5 +55,5 @@
     <!-- scripts -->
     <script src="./ge_scripts/js/subPopupBox.js"></script>
     <script src="./ge_scripts/js/sideBarAnimation.js"></script>
-<body> 	
+<body>
 </html>
