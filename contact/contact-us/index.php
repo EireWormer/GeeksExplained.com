@@ -28,52 +28,10 @@
 
     <!-- stylesheets -->
     <link rel="stylesheet" href="../../ge_assets/css/style.css">
-
-    <!-- scripts -->
-    <script src="../../ge_scripts/js/subPopupBox.js"></script>
 </head> 	
 <body> 	
     <article id="page-container">
-        <!-- pops up when subscribe button is pressed -->
-        <article id="sub-popup-bg" style="display: none;">
-            <article id="sub-popup-box">
-                <div class="card_title">Subscribe</div>
-                <button type="button" id="popup-close-button" onclick="removeSubscriberPopup()">
-                    <img src="https://www.geeksexplained.com/ge_assets/img/icon/close-icon.png" alt="CLOSE" id="popup-close-icon">
-                </button>
-        
-                <form action="https://www.geeksexplained.com/ge_scripts/php/insert_client.php" method="post">
-                    <div class="text_field_group">
-                        <input type="text" name="forename" class="text_field" placeholder="First name"/>
-                        <label for="forename" class="text_field_label">First name</label>
-                    </div>
-
-                    <br />
-                    <div class="text_field_group">
-                        <input type="email" name="client_email" class="text_field" placeholder="Your Email"/>
-                        <label for="client_email" class="text_field_label">Email Address</label>
-                    </div>
-                    <br/>
-                    <button type="submit">SUBMIT</button>
-                </form>
-            </article>
-        </article>
-        
-        <header>
-            <div id="header-logo-motto-container">
-                <a href="https://www.geeksexplained.com/"><img id= "header-logo" src="https://www.geeksexplained.com/ge_assets/img/logo/logo_extended.png" alt="logo"></a>
-                <p id="header-motto">The geek to English translator</p>
-            </div>
-            
-            <button id="subscribe_popup" type="button" onclick="addSubscriberPopup()">Subscribe to our articles</button>
-
-            <form id="header-search">
-                <input type="text" placeholder="Search..." name="search">
-                <button type="submit">
-                    <img id="header-button-search-icon" src="https://www.geeksexplained.com/ge_assets/img/icon/search-icon.png" />
-                </button>
-            </form>
-        </header>
+        <?php include '../../header.html' ?>
 
         <main>
             <article class="card">
@@ -113,5 +71,9 @@
             </ul>
         </footer>
     </article>
+    
+    <!-- scripts -->
+    <script src="../../ge_scripts/js/subPopupBox.js"></script>
+    <script src="../../ge_scripts/js/sideBarAnimation.js"></script>
 <body> 	
 </html>
