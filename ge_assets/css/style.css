@@ -86,6 +86,26 @@ a[href=""] {
  * ------------------------------------------------------ *
 **/
 
+/* Cookie Consent Banner */
+.cookie-consent-banner {
+  background: var(--primary);
+  position: fixed;
+  bottom: 0;
+  padding: 0.5rem;
+}
+
+.cookie-consent-banner > a {
+  color: var(--secondary);
+}
+
+.cookie-consent-banner > form > button {
+  border: 1px solid var(--secondary);
+  border-radius: 5px;
+  padding: 0.25rem;
+  margin-left: 1rem;
+  color: var(--secondary);
+}
+
 /* Form formatting */
 button {
   font: inherit;

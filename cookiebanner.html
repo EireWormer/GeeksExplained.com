@@ -1,0 +1,28 @@
+<div id="cookie-consent-form" class="cookie-consent-banner" style="z-index: 2;">
+  This website uses cookies to function and analyse traffic. <br />You can learn
+  more at by reading our
+  <a href="https://www.geeksexplained.com/legal/cookie-policy">Cookie Policy</a>
+  and
+  <a href="https://www.geeksexplained.com/legal/privacy-policy"
+    >Privacy Policy</a
+  >.
+  <form
+    id="cookie-consent-form"
+    action="."
+    method="post"
+    target="hidden-cookie-consent-form"
+    onsubmit="document.getElementById('cookie-consent-form').style.display = 'none';"
+    style="display: inline;"
+  >
+    <button type="submit" name="decline" value="decline">Decline</button>
+    <button
+      type="submit"
+      style="background: var(--secondary); color: var(--primary);"
+      name="accept"
+      value="accept"
+    >
+      Accept
+    </button>
+  </form>
+  <iframe style="display: none;" name="hidden-cookie-consent-form"></iframe>
+</div>

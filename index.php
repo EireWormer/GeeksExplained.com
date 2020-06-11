@@ -1,23 +1,48 @@
+<?php 
+# Check if the user already has cookies or if they are in the EU
+
+$in_eu_flag = 1;
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    // Something posted
+
+    if (isset($_POST['accept'])) {
+        setcookie("GeeksExplainedAnalytics", "true", time() + (86400 * 365 * 2), "/");
+    } elseif (isset($_POST['decline'])) {
+        setcookie("GeeksExplainedAnalytics", "false", time() + (86400 * 365 * 2), "/");
+    }
+    #header("Refresh:0");
+} 
+
+if(isset($_COOKIE['GeeksExplainedAnalytics'])) {
+    #cookies already set
+    $in_eu_flag = 2;
+} else {
+    include './ge_scripts/php/is_in_eu.php';
+    if(displayCookieConsent()) {
+        # In the EU - Show banner.
+        $in_eu_flag = 1;
+    } else {
+        # Not in the EU - Set default cookies.
+        setcookie("GeeksExplainedAnalytics", "true", time() + (86400 * 365 * 2), "/");
+    
+        $in_eu_flag = 0;
+    }
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en-IE"> 	
 <head> 	
-    <!-- Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-169108047-1"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'UA-169108047-1');
-    </script>
-
-    <!-- Google Adsense -->
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <script>
-    (adsbygoogle = window.adsbygoogle || []).push({
-        google_ad_client: "ca-pub-8084760569637961",
-        enable_page_level_ads: true
-    });
-    </script>
+    <?php 
+    # If cookies are set, then execute upon them
+    if($in_eu_flag == 2) { 
+        if( $_COOKIE['GeeksExplainedAnalytics'] === 'true' ) {
+            echo '<!-- Google Analytics injection --><script async src="https://www.googletagmanager.com/gtag/js?id=UA-169108047-1"></script><script>Swindow.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag("js", new Date());gtag("config", "UA-169108047-1");</script>
+            ';
+        }
+    }
+    ?>
 
     <!-- metadata -->
 	<meta charset="utf-8">
@@ -52,6 +77,15 @@
     <link rel="stylesheet" href="./ge_assets/css/homepage.css">
 </head> 	
 <body> 	
+
+    <?php 
+        # If cookies are not set, and the user is in the EU, display cookie consent
+        if($in_eu_flag == 1) {
+            # If user has no cookies and is from the eu, display banner
+            include './cookiebanner.html';
+        }
+    ?>
+
     <article id="page-container">
         <?php include './header.html' ?>
 
