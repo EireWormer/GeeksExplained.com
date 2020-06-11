@@ -20,8 +20,6 @@ function getCountryCode($ipAddr) {
     $decoded_json = json_decode($jsonResults);
     $status = $decoded_json->status;
 
-    return 'IE';
-
     if($status == 'success') {
         $countryCode = $decoded_json->countryCode;
         return $countryCode;
