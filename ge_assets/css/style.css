@@ -4,10 +4,12 @@
  * ------------------------------------------------------ *
 **/
 :root {
-  --primary: #009b48;
-  --secondary: #ff7900;
-  --tertiary: #ffffff;
-  --quaternary: #f1f1f1;
+  --primary: rgb(0, 155, 72);
+  --secondary: rgb(255, 121, 0);
+  --tertiary: rgb(255, 255, 255);
+  --quaternary: rgb(241, 241, 241);
+  --quinary: rgb(60, 64, 67);
+  --senary: rgb(154, 160, 166);
 }
 
 /**
@@ -40,6 +42,7 @@ body {
   background: var(--quaternary);
   font-family: "Poppins 300";
   font-size: 0.85rem;
+  color: var(--quinary);
 }
 
 a[href=""] {
@@ -266,7 +269,7 @@ header {
   left: 0;
   background-color: var(--primary);
   overflow-x: hidden;
-  transition: 0.4s;
+  transition: 0.2s;
   padding-top: 60px;
 }
 
@@ -276,7 +279,7 @@ header {
   font-size: 25px;
   color: var(--secondary);
   display: block;
-  transition: 0.3s;
+  transition: 0.2s;
 }
 
 .sidenav a:hover {
