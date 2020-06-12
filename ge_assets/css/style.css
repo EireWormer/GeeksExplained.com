@@ -38,7 +38,8 @@ img {
 **/
 body {
   background: var(--quaternary);
-  font-family: "Roboto 300 Regular";
+  font-family: "Poppins 300";
+  font-size: 0.85rem;
 }
 
 a[href=""] {
@@ -80,6 +81,37 @@ a[href=""] {
   src: url("../fonts/Roboto-500-Italic.ttf");
 }
 
+/* Poppins */
+@font-face {
+  font-family: "Poppins 300";
+  src: url("../fonts/poppins/Poppins\ Light\ 300.ttf");
+}
+
+@font-face {
+  font-family: "Poppins 300 Italic";
+  src: url("../fonts/poppins/Poppins\ Light\ 300\ Italic.ttf");
+}
+
+@font-face {
+  font-family: "Poppins 400";
+  src: url("../fonts/poppins/Poppins\ Regular\ 400.ttf");
+}
+
+@font-face {
+  font-family: "Poppins 400 Italic";
+  src: url("../fonts/poppins/Poppins\ Regular\ 400\ Italic.ttf");
+}
+
+@font-face {
+  font-family: "Poppins 500";
+  src: url("../fonts/poppins/Poppins\ Medium\ 500.ttf");
+}
+
+@font-face {
+  font-family: "Poppins 500 Italic";
+  src: url("../fonts/poppins/Poppins\ Medium\ 500\ Italic.ttf");
+}
+
 /**
  * ------------------------------------------------------ *
  * mobile styles
@@ -111,7 +143,7 @@ button {
   font: inherit;
   border: none;
   color: green;
-  font-family: "Roboto 500 Regular";
+  font-family: "Poppins 500";
   font-size: 0.875rem;
   letter-spacing: 1.25px;
   background: none;
@@ -134,7 +166,7 @@ button {
 
 .card_title {
   margin: 15px 0;
-  font-family: "Roboto 500 Regular";
+  font-family: "Poppins 500";
   font-size: 1.5em;
   letter-spacing: 0.25px;
 }
@@ -308,6 +340,7 @@ header {
 #header-motto {
   text-align: center;
   font-size: 0.75rem;
+  font-family: "Poppins 300";
   letter-spacing: 0.4px;
 }
 
@@ -319,7 +352,7 @@ header {
   padding: 5px;
   background: none;
   color: var(--secondary);
-  font-family: "Roboto 500 Regular";
+  font-family: "Poppins 500";
   font-size: 1.15rem;
   cursor: pointer;
 }
