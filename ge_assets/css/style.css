@@ -51,35 +51,6 @@ a[href=""] {
  * fonts
  * ------------------------------------------------------ *
 **/
-@font-face {
-  font-family: "Roboto 300 Regular";
-  src: url("../fonts/Roboto-300.ttf");
-}
-
-@font-face {
-  font-family: "Roboto 300 Italic";
-  src: url("../fonts/Roboto-300-Italic.ttf");
-}
-
-@font-face {
-  font-family: "Roboto 400 Regular";
-  src: url("../fonts/Roboto-400.ttf");
-}
-
-@font-face {
-  font-family: "Roboto 400 Italic";
-  src: url("../fonts/Roboto-400-Italic.ttf");
-}
-
-@font-face {
-  font-family: "Roboto 500 Regular";
-  src: url("../fonts/Roboto-500.ttf");
-}
-
-@font-face {
-  font-family: "Roboto 500 Italic";
-  src: url("../fonts/Roboto-500-Italic.ttf");
-}
 
 /* Poppins */
 @font-face {
