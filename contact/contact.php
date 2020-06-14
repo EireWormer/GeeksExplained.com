@@ -118,15 +118,15 @@ if(isset($_COOKIE['GeeksExplainedAnalytics'])) {
 
         <footer>
             <ul>
-                <li><a href="">Contact us</a></li>
-                <li><a href="../legal/privacy-policy">Privacy policy</a></li>
+                <li><a href="https://www.geeksexplained.com/contact/contact">Contact us</a></li>
+                <li><a href="https://www.geeksexplained.com/legal/privacy-policy">Privacy policy</a></li>
                 <li><a href="">@GeeksExplained, Some rights reserved</a></li>
             </ul>
         </footer>
     </article>
     
     <!-- scripts -->
-    <script src="../ge_scripts/js/subPopupBox.js"></script>
-    <script src="../ge_scripts/js/sideBarAnimation.js"></script>
+    <script src="https://www.geeksexplained.com/ge_scripts/js/subPopupBox.js"></script>
+    <script src="https://www.geeksexplained.com/ge_scripts/js/sideBarAnimation.js"></script>
 </body> 	
 </html>

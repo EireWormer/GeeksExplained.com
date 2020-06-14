@@ -70,8 +70,8 @@ if(isset($_COOKIE['GeeksExplainedAnalytics'])) {
     <!-- / Open Graph -->
 
     <!-- stylesheets -->
-    <link rel="stylesheet" href="../ge_assets/css/style.css">
-    <link rel="stylesheet" href="cookie-policy.css">
+    <link rel="stylesheet" href="https://www.geeksexplained.com/ge_assets/css/style.css">
+    <link rel="stylesheet" href="https://www.geeksexplained.com/legal/cookie-policy.css">
 </head> 	
 <body> 	
 
@@ -222,15 +222,15 @@ if(isset($_COOKIE['GeeksExplainedAnalytics'])) {
 
         <footer>
             <ul>
-                <li><a href="../contact/contact">Contact us</a></li>
-                <li><a href="./privacy-policy">Privacy policy</a></li>
+                <li><a href="https://www.geeksexplained.com/contact/contact">Contact us</a></li>
+                <li><a href="https://www.geeksexplained.com/legal/privacy-policy">Privacy policy</a></li>
                 <li><a href="">@GeeksExplained, Some rights reserved</a></li>
             </ul>
         </footer>
     </article>
 
     <!-- scripts -->
-    <script src="../ge_scripts/js/subPopupBox.js"></script>
-    <script src="../ge_scripts/js/sideBarAnimation.js"></script>
+    <script src="https://www.geeksexplained.com/ge_scripts/js/subPopupBox.js"></script>
+    <script src="https://www.geeksexplained.com/ge_scripts/js/sideBarAnimation.js"></script>
 </body> 	
 </html>

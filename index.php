@@ -59,7 +59,7 @@ if(isset($_COOKIE['GeeksExplainedAnalytics'])) {
     <meta property="og:title" content="GeeksExplained | The geek to English translator" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://www.geeksexplained.com/" />
-    <meta property="og:image" content="https://www.geeksexplained.com/ge_assets/img/icon/ge200x200.pngge_assets/img/icon/ge200x200.png">
+    <meta property="og:image" content="https://www.geeksexplained.com/ge_assets/img/icon/ge200x200.png">
     <meta property="og:image:type" content="image/png">
     <meta property="og:image:width" content="200">
     <meta property="og:image:height" content="200">
@@ -98,15 +98,15 @@ if(isset($_COOKIE['GeeksExplainedAnalytics'])) {
 
         <footer>
             <ul>
-                <li><a href="./contact/contact">Contact us</a></li>
-                <li><a href="./legal/privacy-policy">Privacy policy</a></li>
+                <li><a href="https://www.geeksexplained.com/contact/contact">Contact us</a></li>
+                <li><a href="https://www.geeksexplained.com/legal/privacy-policy">Privacy policy</a></li>
                 <li><a href="">@GeeksExplained, Some rights reserved</a></li>
             </ul>
         </footer>
     </article>
 
     <!-- scripts -->
-    <script src="./ge_scripts/js/subPopupBox.js"></script>
-    <script src="./ge_scripts/js/sideBarAnimation.js"></script>
+    <script src="https://www.geeksexplained.com/ge_scripts/js/subPopupBox.js"></script>
+    <script src="https://www.geeksexplained.com/ge_scripts/js/sideBarAnimation.js"></script>
 </body>
 </html>
