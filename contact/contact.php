@@ -58,7 +58,7 @@ if(isset($_COOKIE['GeeksExplainedAnalytics'])) {
     <meta property="og:title" content="Contact Us | GeeksExplained" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://www.geeksexplained.com/contact.html" />
-    <meta property="og:image" content="./ge_assets/img/icon/ge200x200.png">
+    <meta property="og:image" content="https://www.geeksexplained.com/ge_assets/img/icon/ge200x200.png">
     <meta property="og:image:type" content="image/png">
     <meta property="og:image:width" content="200">
     <meta property="og:image:height" content="200">
