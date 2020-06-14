@@ -51,7 +51,7 @@ if(isset($_COOKIE['GeeksExplainedAnalytics'])) {
     <link rel="shortcut icon" href="https://www.geeksexplained.com/ge_assets/img/icon/favicon.ico" type="image/x-icon" />
 
     <!-- stylesheets -->
-    <link rel="stylesheet" href="https://www.geeksexplained.com/ge_assets/css/style.css">
+    <link rel="stylesheet" href="../ge_assets/css/style.css">
 </head> 	
 <body> 	
 

@@ -73,7 +73,7 @@ if(isset($_COOKIE['GeeksExplainedAnalytics'])) {
     <!-- / Open Graph -->
 
     <!-- stylesheets -->
-    <link rel="stylesheet" href="https://www.geeksexplained.com/ge_assets/css/style.css">
+    <link rel="stylesheet" href="./ge_assets/css/style.css">
     <link rel="stylesheet" href="./ge_assets/css/homepage.css">
 </head> 	
 <body> 	
