@@ -58,32 +58,32 @@ a[href=""] {
 /* Poppins */
 @font-face {
   font-family: "Poppins 300";
-  src: url("../fonts/poppins/Poppins\ Light\ 300.ttf");
+  src: url("../fonts/poppins/Poppins-Light-300.ttf");
 }
 
 @font-face {
   font-family: "Poppins 300 Italic";
-  src: url("../fonts/poppins/Poppins\ Light\ 300\ Italic.ttf");
+  src: url("../fonts/poppins/Poppins-Light-300-Italic.ttf");
 }
 
 @font-face {
   font-family: "Poppins 400";
-  src: url("../fonts/poppins/Poppins\ Regular\ 400.ttf");
+  src: url("../fonts/poppins/Poppins-Regular-400.ttf");
 }
 
 @font-face {
   font-family: "Poppins 400 Italic";
-  src: url("../fonts/poppins/Poppins\ Regular\ 400\ Italic.ttf");
+  src: url("../fonts/poppins/Poppins-Regular-400-Italic.ttf");
 }
 
 @font-face {
   font-family: "Poppins 500";
-  src: url("../fonts/poppins/Poppins\ Medium\ 500.ttf");
+  src: url("../fonts/poppins/Poppins-Medium-500.ttf");
 }
 
 @font-face {
   font-family: "Poppins 500 Italic";
-  src: url("../fonts/poppins/Poppins\ Medium\ 500\ Italic.ttf");
+  src: url("../fonts/poppins/Poppins-Medium-500-Italic.ttf");
 }
 
 /**
