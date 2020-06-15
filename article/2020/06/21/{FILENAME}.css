@@ -1,3 +1,61 @@
-body {
-  background: white;
+.article {
+  margin: 2rem auto;
+  width: 90%;
+  font-size: 0.85rem;
+  word-spacing: 0.1rem;
+  justify-content: space-evenly;
+  text-align: justify;
+
+  font-family: "Poppins 400";
+}
+
+.article-title {
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+  font-family: "Poppins 500";
+  color: var(--quinary);
+}
+
+/**
+ * ------------------------------------------------------ *
+ * small tablets styles
+ * ------------------------------------------------------ *
+**/
+@media screen and (min-width: 620px) {
+  .article {
+    width: 80%;
+    font-size: 0.9rem;
+  }
+}
+
+/**
+   * ------------------------------------------------------ *
+   * large tablets & laptop styles
+   * ------------------------------------------------------ *
+  **/
+@media screen and (min-width: 960px) {
+  .article {
+    width: 70%;
+    font-size: 0.9rem;
+  }
+
+  .article-title {
+    font-size: 2rem;
+  }
+}
+
+/**
+   * ------------------------------------------------------ *
+   * desktop styles
+   * ------------------------------------------------------ *
+  **/
+@media screen and (min-width: 1200px) {
+  .article {
+    width: 50%;
+    font-size: 1rem;
+  }
+
+  .article-title {
+    font-size: 2.3rem;
+  }
 }

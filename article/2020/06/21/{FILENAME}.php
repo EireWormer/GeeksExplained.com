@@ -88,9 +88,14 @@ if(isset($_COOKIE['GeeksExplainedAnalytics'])) {
         <?php include '../../../../header.html' ?>
 
         <main>
-            <article class="all_posts">
-                <article class="post">
-                </article>
+            <article class="article">
+                <div class="article-title">Article Title</div>
+
+                <p>
+                great way to communicate with others nearby when cellular and 
+                Wi-Fi networks aren't available. With it, you can anonymously 
+                share any 
+                </p>
             </article>
         </main>
 

@@ -86,7 +86,7 @@ if(isset($_COOKIE['GeeksExplainedAnalytics'])) {
         <?php include '../header.html' ?>
 
         <main>
-            <article class="card polic-container">
+            <article class="card policy-container">
                 <div id="page-title">Privacy policy</div>
 
                 <p>
