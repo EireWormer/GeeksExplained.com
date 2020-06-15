@@ -65,8 +65,8 @@ if(isset($_COOKIE['GeeksExplainedAnalytics'])) {
     <meta property="og:image:height" content="200">
     <meta property="og:image:alt" content="The logo of GeeksExplained. A green letter G merging with the letter E.">
     <meta property="og:description" 
-        content="The geek to English transalor. Well written and descriptive articles that take computer science, 
-            programming, and security concepts and explains them in an easy-to-understand way." />
+        content="The geek to English transalor. Tech news and well written and descriptive articles that take computer science, 
+            programming, security and other concepts and explains them in an easy-to-understand way." />
     <meta property="og:locale" content="en_IE" />
     <meta property="og:locale:alternate" content="en_GB" />
     <meta property="og:site_name" content="GeeksExplained" />
