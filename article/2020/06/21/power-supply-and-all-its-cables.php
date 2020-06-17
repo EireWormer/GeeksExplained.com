@@ -48,14 +48,14 @@ if(isset($_COOKIE['GeeksExplainedAnalytics'])) {
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" 
-        content=" {DESCRIPTION} ">
+        content="In this GeeksExplained article, we explain the purpose and use of a power supply unit (PSU) in a computer. We also list the different power supply (PSU) cables and their purposes, uses, and placements on the motherboard.">
     <meta name="keywords" content="computer geek, programming, geeksexplained, geek, explained, casually explained">
     <meta name="theme-color" content="#009b48" />
-    <title>{TITLE} | GeeksExplained</title>
+    <title>Power supply (and it's cables) | GeeksExplained</title>
     <link rel="shortcut icon" href="https://www.geeksexplained.com/ge_assets/img/icon/favicon.ico" type="image/x-icon" />
     
     <!-- Open Graph  -->
-    <meta property="og:title" content="{TITLE} | GeeksExplained" />
+    <meta property="og:title" content="Power supply (and it's cables) | GeeksExplained" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://www.geeksexplained.com/article/2020/06/21/{FILENAME}.php" />
     <meta property="og:image" content="{ARTICLE IMAGE}">
@@ -64,7 +64,7 @@ if(isset($_COOKIE['GeeksExplainedAnalytics'])) {
     <meta property="og:image:height" content="200">
     <meta property="og:image:alt" content="{ARTICLE IMAGE DESCRIPTION}">
     <meta property="og:description" 
-        content=" {DESCRIPTION} " />
+        content="In this GeeksExplained article, we explain the purpose and use of a power supply unit (PSU) in a computer. We also list the different power supply (PSU) cables and their purposes, uses, and placements on the motherboard." />
     <meta property="og:locale" content="en_IE" />
     <meta property="og:locale:alternate" content="en_GB" />
     <meta property="og:site_name" content="GeeksExplained" />
@@ -72,7 +72,7 @@ if(isset($_COOKIE['GeeksExplainedAnalytics'])) {
 
     <!-- stylesheets -->
     <link rel="stylesheet" href="../../../../ge_assets/css/style.css">
-    <link rel="stylesheet" href="{FILENAME}.css">
+    <link rel="stylesheet" href="power-supply-and-all-its-cables.css">
 </head> 	
 <body> 	
 
@@ -89,13 +89,31 @@ if(isset($_COOKIE['GeeksExplainedAnalytics'])) {
 
         <main>
             <article class="article">
-                <div class="article-title">Article Title</div>
+                <div class="article-title">Power supply (and it's cables)</div>
+
+                <figure class="full-fit-img">
+                    <img src="main-img-pc-sideview.jpg" width="100%">
+                    <figcaption>Image source: Luke Hodde (https://unsplash.com/photos/Z-UuXG6iaA8)</figcaption>
+                </figure>
 
                 <p>
-                great way to communicate with others nearby when cellular and 
-                Wi-Fi networks aren't available. With it, you can anonymously 
-                share any 
+                    This is the intro
                 </p>
+
+                <p>
+                    <ul>
+                        <li>Source: https://www.pcinside.info/inside/inside-power-supplies/power-supply-cables-connectors/</li>
+                        <li>P1 (PC Main / ATX connector)</li>
+                        <li>P4 (EPS Connector)</li>
+                        <li>PCI-E Connector (6-pin en 6+2 pin)</li>
+                        <li>Molex (4 Pin Peripheral Connector)</li>
+                        <li>SATA Connector</li>
+                        <li>Mini-Molex / Floppy connector</li>
+                        <li>Adapter: Molex to SATA Power cable</li>
+                        <li>Adapter: Molex to PCI-E 6-pins</li>
+                        <li>Adapter: ATX adapter</li>
+                    </ul>
+                </>
             </article>
         </main>
 
