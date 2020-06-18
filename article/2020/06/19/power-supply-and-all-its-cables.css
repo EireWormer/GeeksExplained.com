@@ -43,7 +43,7 @@
   text-align: left;
 }
 
-p {
+.article > p {
   margin-bottom: 2rem;
   text-align: left;
 }
