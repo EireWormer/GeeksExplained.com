@@ -48,6 +48,10 @@ p {
   text-align: left;
 }
 
+#bibliography-ol > li {
+  margin-bottom: 1.5rem;
+}
+
 /**
  * ------------------------------------------------------ *
  * small tablets styles

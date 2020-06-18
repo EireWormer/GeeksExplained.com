@@ -47,8 +47,7 @@ if(isset($_COOKIE['GeeksExplainedAnalytics'])) {
     <!-- metadata -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" 
-        content="In this GeeksExplained article, we explain the purpose and use of a power supply unit (PSU) in a computer. We also list the different power supply (PSU) cables and their purposes, uses, and placements on the motherboard (mainboard).">
+    <meta name="description" content="In this GeeksExplained article, we explain the purpose and use of a power supply unit (PSU) in a computer. We also list the different power supply (PSU) cables and their purposes, uses, and placements on the motherboard (mainboard).">
     <meta name="keywords" content="computer geek, programming, geeksexplained, geek, explained, casually explained">
     <meta name="theme-color" content="#009b48" />
     <title>Power supply (and it's cables) | GeeksExplained</title>
@@ -56,15 +55,16 @@ if(isset($_COOKIE['GeeksExplainedAnalytics'])) {
     
     <!-- Open Graph  -->
     <meta property="og:title" content="Power supply (and it's cables) | GeeksExplained" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://www.geeksexplained.com/article/2020/06/21/{FILENAME}.php" />
-    <meta property="og:image" content="{ARTICLE IMAGE}">
+    <meta property="og:type" content="article" />
+    <meta property="article:published_time" content="2020-06-18T11:00:00" />
+    <meta property="article:modified_time" content="2020-06-18T11:00:00" />
+    <meta property="og:url" content="https://www.geeksexplained.com/article/2020/06/21/power-supply-and-all-its-cables" />
+    <meta property="og:image" content="https://www.geeksexplained.com/article/2020/06/21/power-supply.jpg">
     <meta property="og:image:type" content="image/png">
     <meta property="og:image:width" content="200">
     <meta property="og:image:height" content="200">
-    <meta property="og:image:alt" content="{ARTICLE IMAGE DESCRIPTION}">
-    <meta property="og:description" 
-        content="In this GeeksExplained article, we explain the purpose and use of a power supply unit (PSU) in a computer. We also list the different power supply (PSU) cables and their purposes, uses, and placements on the motherboard (mainboard)." />
+    <meta property="og:image:alt" content="A personal computer's power supply unit.">
+    <meta property="og:description" content="In this GeeksExplained article, we explain the purpose and use of a power supply unit (PSU) in a computer. We also list the different power supply (PSU) cables and their purposes, uses, and placements on the motherboard (mainboard)." />
     <meta property="og:locale" content="en_IE" />
     <meta property="og:locale:alternate" content="en_GB" />
     <meta property="og:site_name" content="GeeksExplained" />
@@ -194,14 +194,34 @@ if(isset($_COOKIE['GeeksExplainedAnalytics'])) {
                 </figure>
 
                 <!--    
+                    ########################
+                    PCI-E Power connector
+                    ########################
+                 -->
+                 <div class="section-sub-title">PCI-E Power connector</div>
+                <p>
+                    The PCI-E Power connector can be a 6 pin connector, or a 6 pin connector with an attached extra 2 pins. 
+                    According to <em>Gigabyte (2020)</em>, the PCI Express slot of the motherboard can provide up to 75 watts. For extensions 
+                    that interface through the PCI Express slot that require more power, The PCI-E 6 pin power connector can provide 
+                    an extra 75 watts, or the the 8 pin variety can provide up to 150 watts of extra power.
+                </p>
+                <figure class="full-fit-img half-fit-img">
+                    <img src="pci-e.jpg" width="100%">
+                    <figcaption>Image source: (https://www.newegg.com/p/1BK-00RR-00082)</figcaption>
+                </figure>
+
+                <!--    
                     #######################
                     Bibliography
                     #######################
                  -->
                 <div class="section-title">Bibliography</div>
-                <ol>
+                <ol id="bibliography-ol">
                     <li>
                         Intel (2018). Desktop Platform Form Factors Power Supply Design Guide (Rev. 002) (Document No #336521). Available at: https://intel.ly/3fz2y3k.
+                    </li>
+                    <li>
+                        Gigabyte (2020). The maximum power consumption of the connectors. [Web support]. Available at: https://www.gigabyte.com/Support/FAQ/2773
                     </li>
                 </ol>
             </article>
