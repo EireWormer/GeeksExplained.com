@@ -48,7 +48,7 @@ if(isset($_COOKIE['GeeksExplainedAnalytics'])) {
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" 
-        content="In this GeeksExplained article, we explain the purpose and use of a power supply unit (PSU) in a computer. We also list the different power supply (PSU) cables and their purposes, uses, and placements on the motherboard.">
+        content="In this GeeksExplained article, we explain the purpose and use of a power supply unit (PSU) in a computer. We also list the different power supply (PSU) cables and their purposes, uses, and placements on the motherboard (mainboard).">
     <meta name="keywords" content="computer geek, programming, geeksexplained, geek, explained, casually explained">
     <meta name="theme-color" content="#009b48" />
     <title>Power supply (and it's cables) | GeeksExplained</title>
@@ -64,7 +64,7 @@ if(isset($_COOKIE['GeeksExplainedAnalytics'])) {
     <meta property="og:image:height" content="200">
     <meta property="og:image:alt" content="{ARTICLE IMAGE DESCRIPTION}">
     <meta property="og:description" 
-        content="In this GeeksExplained article, we explain the purpose and use of a power supply unit (PSU) in a computer. We also list the different power supply (PSU) cables and their purposes, uses, and placements on the motherboard." />
+        content="In this GeeksExplained article, we explain the purpose and use of a power supply unit (PSU) in a computer. We also list the different power supply (PSU) cables and their purposes, uses, and placements on the motherboard (mainboard)." />
     <meta property="og:locale" content="en_IE" />
     <meta property="og:locale:alternate" content="en_GB" />
     <meta property="og:site_name" content="GeeksExplained" />
@@ -97,10 +97,54 @@ if(isset($_COOKIE['GeeksExplainedAnalytics'])) {
                 </figure>
 
                 <p>
-                    This is the intro
+                    When I built my first personal computer, I can remember the confusion of the entire process. 
+                    There were so many different components to keep track of; however, the power supply stands out.
+                    I can vividy remember the sense bewilderment that came over me when I pulled out a platora of 
+                    varies cables. What's worse, is that I could find nowhere online that just explained clearly what 
+                    I needed to know. This is years later, but this is dedicated to anyone who is having the same 
+                    struggle I did when searching for this information. I have made it as concise as possible so you
+                    can get to gaming ASAP.  
                 </p>
 
+                <div class="section-title">power supply? what? why?</div>
                 <p>
+                    The components that make your personal computer (PC) use Direct Current (DC). The wall electrical 
+                    mains in your homes supplies Alternating Current (AC) to the electrical outlets on your walls. If 
+                    you supply AC to a component that requires DC, you run the risk of destroying it. 
+                    <br><br>
+                    The power supply for your PC is responsible for taking the high voltage AC (115v-230v ~ 47-63Hz) 
+                    from the wall and converts it to low voltage DC (3.3v-12v ±5-10%) that your components can use 
+                    <em>(Intel, 2018)</em>.
+                </p>
+                
+                <div class="section-title">Connectors</div>
+                <div class="section-sub-title">P1 12v Main Connector</div>
+                <p>
+                    The P1 12v Main Connector is the replacement for the older P8 and P9 connectors. This connector is
+                    normally the largest connector. This may be a 20 or 24 pin connector, often you find a 20 pin connector
+                    with an extra 4 pin connector attached to facilitate backwards compatibility with older mainboard.
+                    Luckily, the pins are keyed, so a 20 pin connector cannot be accidentally inserted into a 24 pin 
+                    mainboard incorrectly.
+                </p>
+                <figure class="full-fit-img half-fit-img">
+                    <img src="p1-connector.jpg" width="100%">
+                    <figcaption>Image source: (https://www.computerhope.com/jargon/a/atxstyle.htm)</figcaption>
+                </figure>
+
+                <p>
+                    This connector plugs into what is usually the largest plug on the mainboard as highlighted below.
+                </p>
+
+                <figure class="full-fit-img half-fit-img">
+                    <img src="motherboard-p1.jpg" width="100%">
+                    <figcaption>Image source: Michael Dziedzic (https://unsplash.com/photos/up_LoujbvHY)</figcaption>
+                </figure>
+
+
+
+                <p>
+                    List of connectors, What they are for, where to put them.
+
                     <ul>
                         <li>Source: https://www.pcinside.info/inside/inside-power-supplies/power-supply-cables-connectors/</li>
                         <li>P1 (PC Main / ATX connector)</li>
@@ -109,11 +153,15 @@ if(isset($_COOKIE['GeeksExplainedAnalytics'])) {
                         <li>Molex (4 Pin Peripheral Connector)</li>
                         <li>SATA Connector</li>
                         <li>Mini-Molex / Floppy connector</li>
-                        <li>Adapter: Molex to SATA Power cable</li>
-                        <li>Adapter: Molex to PCI-E 6-pins</li>
-                        <li>Adapter: ATX adapter</li>
                     </ul>
-                </>
+                </p> 
+
+                <div class="section-title">Bibliography</div>
+                <ol>
+                    <li>
+                        Intel (2018). Desktop Platform Form Factors Power Supply Design Guide (Rev 002) (Document No #336521). Available at: https://intel.ly/3fz2y3k.
+                    </li>
+                </ol>
             </article>
         </main>
 
