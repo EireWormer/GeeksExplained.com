@@ -137,24 +137,27 @@ if(isset($_COOKIE['GeeksExplainedAnalytics'])) {
 
                 <figure class="full-fit-img half-fit-img">
                     <img src="motherboard-p1.jpg" width="100%">
-                    <figcaption>Image source: Michael Dziedzic (https://unsplash.com/photos/up_LoujbvHY)</figcaption>
+                    <figcaption>Image source: (https://www.techspot.com/article/1965-anatomy-motherboard/)</figcaption>
                 </figure>
 
+                
 
-
+                <div class="section-sub-title">CPU Connector</div>
                 <p>
-                    List of connectors, What they are for, where to put them.
-
-                    <ul>
-                        <li>Source: https://www.pcinside.info/inside/inside-power-supplies/power-supply-cables-connectors/</li>
-                        <li>P1 (PC Main / ATX connector)</li>
-                        <li>P4 (EPS Connector)</li>
-                        <li>PCI-E Connector (6-pin en 6+2 pin)</li>
-                        <li>Molex (4 Pin Peripheral Connector)</li>
-                        <li>SATA Connector</li>
-                        <li>Mini-Molex / Floppy connector</li>
-                    </ul>
-                </p> 
+                    The CPU connector provides power for the processor. Who would have guessed? It is an 8 pin connector 
+                    which usually comes as two attached 4 pin connectors.
+                </p>
+                <figure class="full-fit-img half-fit-img">
+                    <img src="cpu-connector.jpg" width="100%">
+                    <figcaption>Image source: (https://www.newegg.com/p/1BK-00RR-00082)</figcaption>
+                </figure>
+                <p>
+                    This connector plugs into the top left of the mainboard as highlighted below.
+                </p>
+                <figure class="full-fit-img half-fit-img">
+                    <img src="motherboard-cpu.jpg" width="100%">
+                    <figcaption>Image source: (https://www.techspot.com/article/1965-anatomy-motherboard/)</figcaption>
+                </figure>
 
                 <div class="section-title">Bibliography</div>
                 <ol>
