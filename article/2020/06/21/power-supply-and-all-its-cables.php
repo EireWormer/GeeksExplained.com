@@ -89,6 +89,11 @@ if(isset($_COOKIE['GeeksExplainedAnalytics'])) {
 
         <main>
             <article class="article">
+                <!--    
+                    #######################
+                    Introduction
+                    #######################
+                 -->
                 <div class="article-title">Power supply (and it's cables)</div>
 
                 <figure class="full-fit-img">
@@ -106,6 +111,11 @@ if(isset($_COOKIE['GeeksExplainedAnalytics'])) {
                     can get to gaming ASAP.  
                 </p>
 
+                <!--    
+                    #######################
+                    power supply? what? why?
+                    #######################
+                 -->
                 <div class="section-title">power supply? what? why?</div>
                 <p>
                     The components that make your personal computer (PC) use Direct Current (DC). The wall electrical 
@@ -118,6 +128,11 @@ if(isset($_COOKIE['GeeksExplainedAnalytics'])) {
                 </p>
                 
                 <div class="section-title">Connectors</div>
+                <!--    
+                    #######################
+                    P1 12v Main Connector
+                    #######################
+                 -->
                 <div class="section-sub-title">P1 12v Main Connector</div>
                 <p>
                     The P1 12v Main Connector is the replacement for the older P8 and P9 connectors. This connector is
@@ -140,8 +155,11 @@ if(isset($_COOKIE['GeeksExplainedAnalytics'])) {
                     <figcaption>Image source: (https://www.techspot.com/article/1965-anatomy-motherboard/)</figcaption>
                 </figure>
 
-                
-
+                <!--    
+                    #######################
+                    CPU Connector
+                    #######################
+                 -->
                 <div class="section-sub-title">CPU Connector</div>
                 <p>
                     The CPU connector provides power for the processor. Who would have guessed? It is an 8 pin connector 
@@ -159,10 +177,31 @@ if(isset($_COOKIE['GeeksExplainedAnalytics'])) {
                     <figcaption>Image source: (https://www.techspot.com/article/1965-anatomy-motherboard/)</figcaption>
                 </figure>
 
+                <!--    
+                    #######################
+                    SATA Power Adapter Cable
+                    #######################
+                 -->
+                <div class="section-sub-title">SATA Power Adapter Cable</div>
+                <p>
+                    SATA, or Serial ATA, Power Adapter Cable powers the secondary storage devices. It is a 4 pin 
+                    IDE Molex to Serial ATA adapter as seen below. They are connected directly into the secondary
+                    storage device.
+                </p>
+                <figure class="full-fit-img half-fit-img">
+                    <img src="molex-to-sata.jpg" width="100%">
+                    <figcaption>Image source: (https://www.newegg.com/p/1BK-00RR-00082)</figcaption>
+                </figure>
+
+                <!--    
+                    #######################
+                    Bibliography
+                    #######################
+                 -->
                 <div class="section-title">Bibliography</div>
                 <ol>
                     <li>
-                        Intel (2018). Desktop Platform Form Factors Power Supply Design Guide (Rev 002) (Document No #336521). Available at: https://intel.ly/3fz2y3k.
+                        Intel (2018). Desktop Platform Form Factors Power Supply Design Guide (Rev. 002) (Document No #336521). Available at: https://intel.ly/3fz2y3k.
                     </li>
                 </ol>
             </article>
