@@ -6,6 +6,7 @@
 :root {
   --primary: rgb(0, 155, 72);
   --secondary: rgb(255, 121, 0);
+  --secondary-40p: rgba(255, 121, 0, 0.4);
   --tertiary: rgb(255, 255, 255);
   --quaternary: rgb(241, 241, 241);
   --quinary: rgb(60, 64, 67);
