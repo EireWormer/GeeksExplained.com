@@ -91,19 +91,14 @@ if(isset($_COOKIE['GeeksExplainedAnalytics'])) {
 
         <main>
             <article class="all_posts">
-                <article class="summary-card">
-                    <div class="summary-card-title-container"><a href="">Power supply (and all it's cables)</a></div>
-                    <div class="summary-card-artice-summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean blandit sem felis, sit amet porttitor urna commodo nec. Vivamus mattis felis lectus. Nulla ornare ni...</div>
-                    <div class="summary-card-links"><a href="./article/2020/06/19/power-supply-and-all-its-cables">Read more</a></div>
-                </article>
-            </article>
-
-            <article class="all_posts">
-                <article class="summary-card">
-                    <div class="summary-card-title-container"><a href="">Power supply (and all it's cables)</a></div>
-                    <div class="summary-card-artice-summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean blandit sem felis, sit amet porttitor urna commodo nec. Vivamus mattis felis lectus. Nulla ornare ni...</div>
-                    <div class="summary-card-links"><a href="./article/2020/06/19/power-supply-and-all-its-cables">Read more</a></div>
-                </article>
+                <?php 
+                include './ge_scripts/php/print_article_summary.php'; 
+                #167 character summary
+                $title = "Power supply (and all it's cables)";
+                $summary = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean blandit sem felis, sit amet porttitor urna commodo nec. Vivamus mattis felis lectus. Nulla ornare ni";
+                $link = "./article/2020/06/19/power-supply-and-all-its-cables";
+                printArticleSummary($title, $summary, $link);
+                ?>
             </article>
         </main>
 
