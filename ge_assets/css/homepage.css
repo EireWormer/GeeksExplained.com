@@ -3,6 +3,18 @@
   * mobile styles
   * ------------------------------------------------------ *
 **/
+a {
+  color: var(--primary);
+}
+
+a:active {
+  color: var(--secondary);
+}
+
+a:hover {
+  cursor: pointer;
+}
+
 .all_posts {
   margin: 2rem 0;
 }
@@ -16,7 +28,6 @@ body {
   background: var(--tertiary);
   width: 100%;
   max-width: 80%;
-  height: 12.5rem;
   box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
   margin: 1rem auto;
   border-radius: 1px;
@@ -39,21 +50,8 @@ body {
 }
 
 .summary-card-links {
-  position: absolute;
   width: max-content;
-  bottom: 1rem;
-}
-
-a {
-  color: var(--primary);
-}
-
-a:active {
-  color: var(--secondary);
-}
-
-a:hover {
-  cursor: pointer;
+  margin-top: 0.5rem;
 }
 
 /**
@@ -62,6 +60,17 @@ a:hover {
   * ------------------------------------------------------ *
 **/
 @media screen and (min-width: 620px) {
+  .summary-card {
+    max-width: 70%;
+  }
+
+  .summary-card-title-container {
+    font-size: 1.6em;
+  }
+
+  .summary-card-artice-summary {
+    font-size: 0.85rem;
+  }
 }
 
 /**
@@ -70,6 +79,17 @@ a:hover {
   * ------------------------------------------------------ *
 **/
 @media screen and (min-width: 960px) {
+  .summary-card {
+    max-width: 60%;
+  }
+
+  .summary-card-title-container {
+    font-size: 1.7em;
+  }
+
+  .summary-card-artice-summary {
+    font-size: 0.9rem;
+  }
 }
 
 /**
@@ -78,4 +98,15 @@ a:hover {
   * ------------------------------------------------------ *
 **/
 @media screen and (min-width: 1200px) {
+  .summary-card {
+    max-width: 45%;
+  }
+
+  .summary-card-title-container {
+    font-size: 1.75em;
+  }
+
+  .summary-card-artice-summary {
+    font-size: 0.98rem;
+  }
 }
