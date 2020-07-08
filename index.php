@@ -95,7 +95,7 @@ if(isset($_COOKIE['GeeksExplainedAnalytics'])) {
                 include './ge_scripts/php/print_article_summary.php'; 
                 #167 character summary
                 $title = "Power supply (and all it's cables)";
-                $summary = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean blandit sem felis, sit amet porttitor urna commodo nec. Vivamus mattis felis lectus. Nulla ornare ni";
+                $summary = "When I built my first personal computer, I can remember the confusion of the entire process. There were so many different components to keep track of; however, the pow";
                 $link = "./article/2020/06/19/power-supply-and-all-its-cables";
                 printArticleSummary($title, $summary, $link);
                 ?>
