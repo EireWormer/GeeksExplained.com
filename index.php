@@ -99,8 +99,6 @@ if(isset($_COOKIE['GeeksExplainedAnalytics'])) {
                 $link = "./article/2020/07/23/standard-contactual-clauses";
                 printArticleSummary($title, $summary, $link);
                 
-                #include './ge_scripts/php/print_article_summary.php'; 
-                #167 character summary
                 $title = "Power supply (and all it's cables)";
                 $summary = "When I built my first personal computer, I can remember the confusion of the entire process. There were so many different components to keep track of; however, the pow";
                 $link = "./article/2020/07/08/power-supply-and-all-its-cables";
