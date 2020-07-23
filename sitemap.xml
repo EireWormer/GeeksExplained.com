@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap>
+    <loc>http://www.geeksexplained.com/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>http://www.geeksexplained.com/articles-sitemap.xml</loc>
+  </sitemap>
+</sitemapindex>
+
 <urlset
       xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -12,7 +22,7 @@
 </url>
 
 <url>
-  <loc>https://www.geeksexplained.com/article/2020/08/07/power-supply-and-all-its-cables</loc>
+  <loc>https://www.geeksexplained.com/article/2020/07/08/power-supply-and-all-its-cables</loc>
   <lastmod>2020-06-19</lastmod>
 </url>
 

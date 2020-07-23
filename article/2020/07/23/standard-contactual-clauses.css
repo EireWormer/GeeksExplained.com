@@ -1,0 +1,113 @@
+/**
+ * ------------------------------------------------------ *
+ * Mobile styles ( default)
+ * ------------------------------------------------------ *
+**/
+.article {
+  margin: 2rem auto;
+  width: 90%;
+  font-size: 0.95rem;
+  word-spacing: 0.1rem;
+  justify-content: space-evenly;
+  text-align: justify;
+  font-family: "Poppins 400";
+}
+
+.article-title {
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+  font-family: "Poppins 500";
+  color: var(--quinary);
+}
+
+.section-title {
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  font-family: "Poppins 500";
+  color: var(--quinary);
+  text-align: left;
+}
+
+.section-sub-title {
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+  font-family: "Poppins 500";
+  color: var(--quinary);
+  text-align: left;
+}
+
+.full-fit-img {
+  width: 100%;
+  margin: 2rem auto;
+  font-size: 0.6rem;
+  text-align: left;
+}
+
+.article > p {
+  margin-bottom: 2rem;
+  text-align: left;
+}
+
+#bibliography-ol > li {
+  margin-bottom: 1.5rem;
+}
+
+/**
+ * ------------------------------------------------------ *
+ * small tablets styles
+ * ------------------------------------------------------ *
+**/
+@media screen and (min-width: 620px) {
+  .article {
+    width: 80%;
+    font-size: 0.9rem;
+  }
+
+  .half-fit-img {
+    max-width: 75%;
+  }
+}
+
+/**
+   * ------------------------------------------------------ *
+   * large tablets & laptop styles
+   * ------------------------------------------------------ *
+  **/
+@media screen and (min-width: 960px) {
+  .article {
+    width: 70%;
+    font-size: 0.9rem;
+  }
+
+  .article-title {
+    font-size: 2rem;
+  }
+
+  .full-fit-img {
+    width: 95%;
+  }
+
+  .half-fit-img {
+    max-width: 65%;
+  }
+}
+
+/**
+   * ------------------------------------------------------ *
+   * desktop styles
+   * ------------------------------------------------------ *
+  **/
+@media screen and (min-width: 1200px) {
+  .article {
+    width: 50%;
+    margin-right: auto;
+  }
+
+  .article-title {
+    font-size: 2.3rem;
+  }
+
+  .half-fit-img {
+    max-width: 50%;
+  }
+}
