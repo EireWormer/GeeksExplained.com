@@ -57,9 +57,9 @@ if(isset($_COOKIE['GeeksExplainedAnalytics'])) {
     <meta property="og:title" content="Power supply (and it's cables) | GeeksExplained" />
     <meta property="og:type" content="article" />
     <meta property="article:published_time" content="2020-06-19T12:00:00" />
-    <meta property="article:modified_time" content="2020-06-19T112:00:00" />
-    <meta property="og:url" content="https://www.geeksexplained.com/article/2020/06/21/power-supply-and-all-its-cables" />
-    <meta property="og:image" content="https://www.geeksexplained.com/article/2020/06/21/power-supply.jpg">
+    <meta property="article:modified_time" content="2020-07-23T112:00:00" />
+    <meta property="og:url" content="https://www.geeksexplained.com/article/2020/07/08/power-supply-and-all-its-cables" />
+    <meta property="og:image" content="https://www.geeksexplained.com/article/2020/07/08/power-supply.jpg">
     <meta property="og:image:type" content="image/png">
     <meta property="og:image:width" content="200">
     <meta property="og:image:height" content="200">
