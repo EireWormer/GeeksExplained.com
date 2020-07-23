@@ -103,20 +103,19 @@ if(isset($_COOKIE['GeeksExplainedAnalytics'])) {
 
                 <p>
                     Firstly, let my preface this article with a disclaimer: I am not a legal professional and the information 
-                    contained withing this article should not be interpreted as legal advice. Should you require legal advice, 
+                    contained within this article should not be interpreted as legal advice. Should you require legal advice, 
                     please consult a lawyer. With that being said, I will clearly outline what is directly quoted from statute 
                     and anything not clearly labelled as statute is my interpretation/opinion. 
                     <br><br>
                     Last week (July 16, 2020) the 
                     European Union’s Court of Justice decided on Facebook Ireland Ltd v. Maximillian Schrems in Case C 311/18 <sup>[7]</sup>. 
                     The decision of the court was that the <q cite="http://curia.europa.eu/juris/document/document.jsf;jsessionid=CF8C3306269B9356ADF861B57785FDEE?text=&docid=228677&pageIndex=0&doclang=EN&mode=req&dir=&occ=first&part=1&cid=9812784"><em>Commission Implementing Decision… on the adequacy of the protection 
-                    provided by the EU-US Privacy Shield is invalid</em></q><sup>[7]</sup>. This means that, effective <strong>immediately</strong>
-                    , companies 
+                    provided by the EU-US Privacy Shield is invalid</em></q><sup>[7]</sup>. This means that, effective <strong>immediately</strong>, companies 
                     dependent on the Privacy Shield for data transfers from the EU to the US must seek out a different legal 
                     bases for personal data transfer in order to avoid illegal transfers of Personally Identifiable Information 
                     (PII) under the General Data Protection Regulation (GDPR). 
                     <br><br>
-                    The ruling was complex and can be found in here 
+                    The ruling was complex and can be found in <a href="http://curia.europa.eu/juris/document/document.jsf;jsessionid=CF8C3306269B9356ADF861B57785FDEE?text=&docid=228677&pageIndex=0&doclang=EN&mode=req&dir=&occ=first&part=1&cid=9812784" style="color: var(--primary);">here</a> 
                     or in our bibliography, but it focused greatly on U.S. surveillance programmes such as FISA and PRISM being 
                     unjustly prioritized ahead of EU person’s rights and freedoms to data privacy and protection. In particular, 
                     they noted how in theory there are <q cite="http://curia.europa.eu/juris/document/document.jsf;jsessionid=CF8C3306269B9356ADF861B57785FDEE?text=&docid=228677&pageIndex=0&doclang=EN&mode=req&dir=&occ=first&part=1&cid=9812784"><em>a number of avenues of redress when they have been the subject of unlawful 
@@ -132,15 +131,15 @@ if(isset($_COOKIE['GeeksExplainedAnalytics'])) {
                  -->
                 <div class="section-title">Alternative… SCCs</div>
                 <p>
-                    Although Schrems also challenged the validity of SCCs, the court decided <q cite="http://curia.europa.eu/juris/document/document.jsf;jsessionid=CF8C3306269B9356ADF861B57785FDEE?text=&docid=228677&pageIndex=0&doclang=EN&mode=req&dir=&occ=first&part=1&cid=9812784">Examination of Commission Decision… 
-                    on standard contractual clauses… has disclosed nothing to affect the validity of that decision</q><sup>[7]</sup>. This means that 
+                    Although Schrems also challenged the validity of Standard Contractual Clauses (SCCs), the court decided <q cite="http://curia.europa.eu/juris/document/document.jsf;jsessionid=CF8C3306269B9356ADF861B57785FDEE?text=&docid=228677&pageIndex=0&doclang=EN&mode=req&dir=&occ=first&part=1&cid=9812784"><em>Examination of Commission Decision… 
+                    on standard contractual clauses… has disclosed nothing to affect the validity of that decision</em></q><sup>[7]</sup>. This means that 
                     SCCs are still a valid offer of sufficient safeguards on data protection for the data to be transferred internationally. 
                     The European Commission website <sup>[1]</sup> directs us to three commission decisions that provide SCCs. These three 
                     decisions are:
                     <ul>
-                        <li><strong>•</strong> Decision 2001/497/EC [2]</li>
-                        <li><strong>•</strong> Decision 2004/915/EC [3]</li>
-                        <li><strong>•</strong> Decision 2010/87/EU [4]</li>
+                        <li><strong>•</strong> Decision 2001/497/EC <sup>[2]</sup></li>
+                        <li><strong>•</strong> Decision 2004/915/EC <sup>[3]</sup></li>
+                        <li><strong>•</strong> Decision 2010/87/EU <sup>[4]</sup></li>
                     </ul>
                     <br>
                     The SCCs can be divided up into two categories: data transfers from controllers in the EU to controllers outside the EU 
