@@ -72,7 +72,7 @@ if(isset($_COOKIE['GeeksExplainedAnalytics'])) {
 
     <!-- stylesheets -->
     <link rel="stylesheet" href="../../../../ge_assets/css/style.css">
-    <link rel="stylesheet" href="power-supply-and-all-its-cables.css">
+    <link rel="stylesheet" href="standard-contactual-clauses.css">
 </head> 	
 <body> 	
 
@@ -94,21 +94,34 @@ if(isset($_COOKIE['GeeksExplainedAnalytics'])) {
                     Introduction
                     #######################
                  -->
-                <div class="article-title">Power supply (and it's cables)</div>
+                <div class="article-title">Standard Contractual Clauses (SCCs)</div>
 
                 <figure class="full-fit-img">
-                    <img src="main-img-pc-sideview.jpg" width="100%">
-                    <figcaption>Image source: Luke Hodde (https://unsplash.com/photos/Z-UuXG6iaA8)</figcaption>
+                    <img src="facebookvsschrems.png" width="100%">
+                    <figcaption>Image source: shorturl.at/cIV67</figcaption>
                 </figure>
 
                 <p>
-                    When I built my first personal computer, I can remember the confusion of the entire process. 
-                    There were so many different components to keep track of; however, the power supply stands out.
-                    I can vividy remember the sense bewilderment that came over me when I pulled out a platora of 
-                    varies cables. What's worse, is that I could find nowhere online that just explained clearly what 
-                    I needed to know. This is years later, but this is dedicated to anyone who is having the same 
-                    struggle I did when searching for this information. I have made it as concise as possible so you
-                    can get to gaming ASAP.  
+                    Firstly, let my preface this article with a disclaimer: I am not a legal professional and the information 
+                    contained withing this article should not be interpreted as legal advice. Should you require legal advice, 
+                    please consult a lawyer. With that being said, I will clearly outline what is directly quoted from statute 
+                    and anything not clearly labelled as statute is my interpretation/opinion. 
+                    <br><br>
+                    Last week (July 16, 2020) the 
+                    European Union’s Court of Justice decided on Facebook Ireland Ltd v. Maximillian Schrems in Case C 311/18 [7]. 
+                    The decision of the court was that the “Commission Implementing Decision… on the adequacy of the protection 
+                    provided by the EU-US Privacy Shield is invalid” [7]. This means that, effective immediately, companies 
+                    dependent on the Privacy Shield for data transfers from the EU to the US must seek out a different legal 
+                    bases for personal data transfer in order to avoid illegal transfers of Personally Identifiable Information 
+                    (PII) under the General Data Protection Regulation (GDPR). 
+                    <br><br>
+                    The ruling was complex and can be found in here 
+                    or in our bibliography, but it focused greatly on U.S. surveillance programmes such as FISA and PRISM being 
+                    unjustly prioritized ahead of EU person’s rights and freedoms to data privacy and protection. In particular, 
+                    they noted how in theory there are “a number of avenues of redress when they have been the subject of unlawful 
+                    (electronic) surveillance for national security purposes… where judicial redress possibilities in principle do 
+                    exist for non-U.S. persons… claims brought by individuals (including U.S. persons) will be declared inadmissible… 
+                    which restricts access to ordinary courts”.
                 </p>
 
                 <!--    
@@ -126,89 +139,6 @@ if(isset($_COOKIE['GeeksExplainedAnalytics'])) {
                     from the wall and converts it to low voltage DC (3.3v-12v ±5-10%) that your components can use 
                     <em>(Intel, 2018)</em>.
                 </p>
-                
-                <div class="section-title">Connectors</div>
-                <!--    
-                    #######################
-                    P1 12v Main Connector
-                    #######################
-                 -->
-                <div class="section-sub-title">P1 12v Main Connector</div>
-                <p>
-                    The P1 12v Main Connector is the replacement for the older P8 and P9 connectors. This connector is
-                    normally the largest connector. This may be a 20 or 24 pin connector, often you find a 20 pin connector
-                    with an extra 4 pin connector attached to facilitate backwards compatibility with older mainboard.
-                    Luckily, the pins are keyed, so a 20 pin connector cannot be accidentally inserted into a 24 pin 
-                    mainboard incorrectly.
-                </p>
-                <figure class="full-fit-img half-fit-img">
-                    <img src="p1-connector.jpg" width="100%">
-                    <figcaption>Image source: (https://www.computerhope.com/jargon/a/atxstyle.htm)</figcaption>
-                </figure>
-
-                <p>
-                    This connector plugs into what is usually the largest plug on the mainboard as highlighted below.
-                </p>
-
-                <figure class="full-fit-img half-fit-img">
-                    <img src="motherboard-p1.jpg" width="100%">
-                    <figcaption>Image source: (https://www.techspot.com/article/1965-anatomy-motherboard/)</figcaption>
-                </figure>
-
-                <!--    
-                    #######################
-                    CPU Connector
-                    #######################
-                 -->
-                <div class="section-sub-title">CPU Connector</div>
-                <p>
-                    The CPU connector provides power for the processor. Who would have guessed? It is an 8 pin connector 
-                    which usually comes as two attached 4 pin connectors.
-                </p>
-                <figure class="full-fit-img half-fit-img">
-                    <img src="cpu-connector.jpg" width="100%">
-                    <figcaption>Image source: (https://www.newegg.com/p/1BK-00RR-00082)</figcaption>
-                </figure>
-                <p>
-                    This connector plugs into the top left of the mainboard as highlighted below.
-                </p>
-                <figure class="full-fit-img half-fit-img">
-                    <img src="motherboard-cpu.jpg" width="100%">
-                    <figcaption>Image source: (https://www.techspot.com/article/1965-anatomy-motherboard/)</figcaption>
-                </figure>
-
-                <!--    
-                    #######################
-                    SATA Power Adapter Cable
-                    #######################
-                 -->
-                <div class="section-sub-title">SATA Power Adapter Cable</div>
-                <p>
-                    SATA, or Serial ATA, Power Adapter Cable powers the secondary storage devices. It is a 4 pin 
-                    IDE Molex to Serial ATA adapter as seen below. They are connected directly into the secondary
-                    storage device.
-                </p>
-                <figure class="full-fit-img half-fit-img">
-                    <img src="molex-to-sata.jpg" width="100%">
-                    <figcaption>Image source: (https://www.newegg.com/p/1BK-00RR-00082)</figcaption>
-                </figure>
-
-                <!--    
-                    ########################
-                    PCI-E Power connector
-                    ########################
-                 -->
-                 <div class="section-sub-title">PCI-E Power connector</div>
-                <p>
-                    The PCI-E Power connector can be a 6 pin connector, or a 6 pin connector with an attached extra 2 pins. 
-                    According to <em>Gigabyte (2020)</em>, the PCI Express slot of the motherboard can provide up to 75 watts. For extensions 
-                    that interface through the PCI Express slot that require more power, The PCI-E 6 pin power connector can provide 
-                    an extra 75 watts, or the the 8 pin variety can provide up to 150 watts of extra power.
-                </p>
-                <figure class="full-fit-img half-fit-img">
-                    <img src="pci-e.jpg" width="100%">
-                    <figcaption>Image source: (https://www.newegg.com/p/1BK-00RR-00082)</figcaption>
-                </figure>
 
                 <!--    
                     #######################
