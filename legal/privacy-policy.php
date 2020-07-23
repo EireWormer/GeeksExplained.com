@@ -103,7 +103,6 @@ if(isset($_COOKIE['GeeksExplainedAnalytics'])) {
                             <li>To provide the services you sign up for, such as the article notification.</li>
                             <li>To carry out marketing analysis and send you communications when we have your permission, 
                                 and/or when permitted by law.</li>
-                            <li>To enable us to show advertising on our sites</li>
                         </ul>
                     </div>
                     <br>
@@ -140,23 +139,15 @@ if(isset($_COOKIE['GeeksExplainedAnalytics'])) {
                     visitors use our site.
                 </p>
 
-                <div class="heading">The personal data we collect when you register for a GeeksExplained account</div>
+                <div class="heading">The personal data we collect when you subscribe to GeeksExplained</div>
                 <p>
-                    When you register for a GeeksExplained account on geeksexplained.com we collect:
-
-                    <div class="list-spanner">
-                        <ul>
-                            <li>your name; and</li>
-                            <li>your email address.</li>
-                        </ul>
-                    </div>
-                    <br>
-                    When you register for a GeeksExplained account, we assign you a unique ID number that we use to recognise you 
-                    when you are signed in to our website. This will recognise you if you sign in using the same account on a new 
-                    device.
+                    When you subscribe for article notifications on geeksexplained.com we collect your name and your email address.
+                    <br><br>
+                    When you register for a GeeksExplained account, we assign you a unique ID number that we use to recognise you
+                    in our notification service.
                     <br><br>
                     When you use our site we may also use cookies or similar technology to collect extra data, including:
-                    <br><br>
+                    <br>
                     <div class="list-spanner">
                         <ul>
                             <li>your IP address - a numerical code to identify your device and which can provide information about 
@@ -168,39 +159,15 @@ if(isset($_COOKIE['GeeksExplainedAnalytics'])) {
                         </ul>
                     </div>
                     <br>
-                    Some of our services may give you the option of providing more information about your preferences, so that we 
-                    can tailor your experience. 
-                    <br><br>
                     We will not collect special categories of data - such as information about your race, political opinions, 
                     religion, health or sexual orientation - unless you have chosen to provide that information to us.
                 </p>
-
-                <!-- This multiline comment is not part of the geeksexplained.com privacy policy. If it is added, it will follow the
-                    methods stated in the "Changes to the Privacy Policy" section.
-
-                <div class="heading">Using Facebook or Google to sign into your GeeksExplained account</div>
-                    <br><br>
-                    If you sign in to our site using your Facebook login details, you give permission to Facebook to share 
-                    with us your email address and certain aspects of your Facebook profile if you have made these public on your 
-                    Facebook profile. This only includes your first and last name, age range, link to your Facebook profile and profile 
-                    picture. We do not have access to updates on your Facebook profile. If you use your Google login details, you 
-                    give Google permission to share the information that you have made public in your Google profile. This only 
-                    includes your first and last name, your email address and whether your email address has been validated, your 
-                    age range, a link to your Google profile and, if you have one, your profile picture.
-                    <br><br>
-                    We will then use this information to form a profile for your Guardian account. If you remove the Guardian app 
-                    from your Facebook settings, or if you remove the Guardian from your Google settings, we will no longer have 
-                    access to this data. However, we will still have the information that we received when you first set up your 
-                    Guardian account using your Facebook or Google login.
-                    -->
 
                 <div class="heading">How we collect personal data</div>
                 <p>
                     We collect personal data when you:
                     <div class="list-spanner">
                         <ul>
-                            <li>become a supporter or registering for an account on geeksexplained.com;</li>
-                            <li>contribute to fund and support the GeeksExplained;</li>
                             <li>subscribe to our notification emails;</li>
                             <li>use mobile devices to access our content;</li>
                             <li>access our sites, through cookies and other similar technology; and</li>
@@ -211,17 +178,13 @@ if(isset($_COOKIE['GeeksExplainedAnalytics'])) {
                 
                 <div class="heading">Why we use you personal data</div>
                 <p>
-                    We use personal data collecte through out site for a number of purposes, including the following:
+                    We use personal data collected through our site for a number of purposes, including the following:
                     <div class="list-spanner">
                         <ul>
                             <li>To provide the services you sign up for, such as sending out subscriptions. We may also use the personal 
                                 data for related internal administrative purposes - such as our accounting and records - and to make 
                                 you aware of any changes to our services.</li>
                             <li>To send marketing and notification communications when we have your permission, or when permitted by law.</li>
-                            <li>To personalise our services (for example, so you can sign in), remembering your settings, displaying 
-                                personalised advertising as well as measuring how effective our online adverts are, recognising you 
-                                when you sign in on different devices and tailoring our marketing and notification communications based on what you read 
-                                on our sites.</li>
                             <li>To carry out marketing analysis, for example we look at what you have viewed on our site and 
                                 what services you subscribe to (including what articles you read) to better understand what 
                                 your interests and preferences are, and to improve our marketing and notifications by making it more relevant to your 
@@ -229,7 +192,6 @@ if(isset($_COOKIE['GeeksExplainedAnalytics'])) {
                                 by going to the tab “Personalisation”.</li>
                             <li>To improve our marketing and notification communications, we may use a similar technology to cookies to confirm whether 
                                 you have opened a marketing or notification email or clicked on a link in the email.</li>
-                            <li>To sell advertising space on our site.</li>
                             <li>For statistical purposes such as analysing the performance of our site and to understand how visitors use it.</li>
                             <li>To respond to your queries and to resolve complaints.</li>
                             <li>To comply with applicable laws and regulations.</li>
@@ -262,25 +224,18 @@ if(isset($_COOKIE['GeeksExplainedAnalytics'])) {
                             <li>Compliance with law: In some cases, we may have a legal obligation to use or keep your personal data.</li>
                         </ul>
                     </div>
-                    When you register for an account with geeksexplained.com, you have access to a profile page. Under “edit 
-                    profile” you cane update your information or provide extra information if you want.
-                    <br><br>
                 </p>
 
                 <div class="heading">Using children’s personal data</div>
                 <p>
                     We do not aim any of our products or services directly at children under the age of 13 and we do not 
-                    knowingly collect personal data about children under 13. Some of our services may have a higher age 
-                    restriction and this will be shown at the point of registration.
+                    knowingly collect personal data about children under 13.
                 </p>
 
                 <div class="heading">Security of your personal data</div>
                 <p>
                     We have implemented appropriate technical and organisational controls to protect your personal data against 
-                    unauthorised processing and against accidental loss, damage or destruction. You are responsible for 
-                    choosing a secure password when we ask you to set up a password to access parts of our site. You 
-                    should keep this password confidential and you should choose a password that you do not use on any other 
-                    site. You should not share your password with anyone else, including anyone from GeeksExplained.
+                    unauthorised processing and against accidental loss, damage or destruction.
                     Unfortunately, sending information via the internet is not completely secure. Although we will do 
                     our best to protect your personal data once with us, we cannot guarantee the security of any personal 
                     data sent to our site while still in transit and so you provide it at your own risk.
@@ -293,11 +248,7 @@ if(isset($_COOKIE['GeeksExplainedAnalytics'])) {
 
                     <div class="list-spanner">
                         <ul>
-                            <li>We may share your data with other organisations that provide services on our behalf such as 
-                                dealing with online payments and other forms of payment processing, ie credit card transactions 
-                                and preventing fraud.</li>
-                            <li>We may also share your data with our advertising partners, as set out in the section about 
-                                Online Advertising below.</li>
+                            <li>We may share your data with other organisations that provide services on our behalf.</li>
                             <li>We may reveal your personal data to any law enforcement agency, court, regulator, government 
                                 authority or other organisation if we are required to do so to meet a legal or regulatory 
                                 obligation, or otherwise to protect our rights or the rights of anyone else.</li>
@@ -325,17 +276,13 @@ if(isset($_COOKIE['GeeksExplainedAnalytics'])) {
                     <div class="list-spanner">
                         <ul>
                             <li>We will only transfer your personal data to countries that have been found to provide an 
-                                adequate level of protection for personal data.</li>
-                            <li>We may also use specific approved contracts with our service providers that are based in 
-                                countries outside the EEA. These contracts give your personal data the same protection it 
-                                has in the EEA .</li>
-                            <li>Where we use service providers in the United States, we may transfer personal data to them 
-                                if they commit to providing a similar level of protection of your personal data to what is 
-                                required in the EEA.</li>
+                                adequate level of protection for personal data and service providers who have committed to 
+                                providing a similar level of protection of your personal data to what is required in the EEA.</li>
+                            <li>We may also use specific approved standard contractual clauses with our service providers 
+                                that are based in countries outside the EEA. These contracts give your personal data the 
+                                same protection it has in the EEA.</li>
                         </ul>
                     </div>
-                    If you are located in the EEA, you may contact us for a copy of the safeguards which we have put in place 
-                    for the transfer of your personal data outside the EEA.
                 </p>
 
                 <div class="heading">How long we keep your personal data</div>
@@ -343,13 +290,12 @@ if(isset($_COOKIE['GeeksExplainedAnalytics'])) {
                     We keep your personal data for only as long as we need to. How long we need your personal data depends on 
                     what we are using it for, as set out in this privacy policy. For example, we may need to use it to 
                     answer your queries about a product or service and as a result may keep personal data while you are still 
-                    using our product or services. We may also need to keep your personal data for accounting purposes, 
-                    for example, where you paid for a service or donation. If we no longer need your data, we will delete 
-                    it or make it anonymous by removing all details that identify you. If we have asked for your permission 
-                    to process your personal data and we have no other lawful grounds to continue with that processing, 
-                    and you withdraw your permission, we will delete your personal data. However, when you unsubscribe 
-                    from marketing or notification communications, we will keep your email address to ensure that we do not 
-                    send you any marketing or notifications in future.
+                    using our product or services. We may also need to keep your personal data for accounting purposes. If we 
+                    no longer need your data, we will delete it or make it anonymous by removing all details that identify you. 
+                    If we have asked for your permission to process your personal data and we have no other lawful grounds to 
+                    continue with that processing, and you withdraw your permission, we will delete your personal data. However, 
+                    when you unsubscribe from marketing or notification communications, we will keep your email address to 
+                    ensure that we do not send you any marketing or notifications in future.
                 </p>
 
                 <div class="heading">Cookies and similar technology</div>
@@ -357,39 +303,13 @@ if(isset($_COOKIE['GeeksExplainedAnalytics'])) {
                     When you visit our site, we may collect personal data from you automatically using cookies or similar technology. 
                     A cookie is a small file that can be placed on your device that allows us to recognise and remember you.
                     <br><br>
-                    This privacy policy includes our <a href="cookie-policy">cookie policy</a>, where you can find details of our key advertising partners.
-                </p>
-
-                <div class="heading">Online advertising</div>
-                <p>
-                    Advertising on our sites that is based on cookies and similar technology
-                    <br><br>
-                    We use personalised online advertising on our sites. This allows us to deliver more relevant advertising to 
-                    people who visit geeksexplained.com. It works by showing you adverts that are based on your browsing patterns 
-                    and the way you have interacted with our site. It then shows you adverts which we believe may interest you.
-                    <br><br>
-                    When you browse our site, some of the cookies and similar technology we place on your device are advertising 
-                    cookies, so we can understand what sort of pages you are interested in. We can then display advertising on 
-                    your browser based on these interests.
-                    <br><br>
-                    We do not collect or use information such as your name, email address, postal address or phone number for 
-                    personalised online advertising.
-                    <br><br>
-                    We may also share online data collected through cookies and similar technology with our advertising partners. 
-                    This means that when you are on another website, you may be shown advertising based on your browsing patterns 
-                    on geeksexplained.com. We may also show you advertising on geeksexplained.com website based on your browsing 
-                    patterns on other sites that we have obtained from our advertising partners.
-                    <br><br>
-                    Online retargeting is another form of online advertising that allows us and some of our advertising partners 
-                    to show you advertising based on your browsing patterns and interactions with a site away from our sites. For 
-                    example, if you have visited the website of an online clothes shop, you may start seeing adverts from that same 
-                    shopping site displaying special offers or showing you the products you were browsing. This allows companies to 
-                    advertise to you if you leave their website without making a purchase.
+                    This privacy policy includes our <a href="cookie-policy">cookie policy</a>, where you can find details of our 
+                    key advertising partners.
                 </p>
 
                 <div class="heading">Advertising that we place on our site or on other sites</div>
                 <p>
-                    We also use personalised online advertising to promote our own products and services. This means that you may 
+                    We use personalised online advertising to promote our own products and services. This means that you may 
                     see advertising for our products and services on our site and when you are on other, third party websites, 
                     lincluding social media platforms.
                 </p>
@@ -413,8 +333,6 @@ if(isset($_COOKIE['GeeksExplainedAnalytics'])) {
                                 may be exceptions to the right to erasure for specific legal reasons which, if applicable, we will 
                                 set out for you in response to your request. Where applicable, you have the right to object to the
                                 processing of your personal data for certain purposes.</li>
-                            <li>If you do not want us to use your personal data for marketing analysis, you can change your settings 
-                                in the “Personalisation” tab.</li>
                         </ul>
                     </div>
                     <br>
@@ -442,7 +360,7 @@ if(isset($_COOKIE['GeeksExplainedAnalytics'])) {
                 <div class="heading">Changes to the Privacy Policy</div>
                 <p>
                     If we decide to change our privacy policy we will post the changes here. If the changes are significant, we may 
-                    also choose to email all our registered users with the new details. If required by law, we will get your permission 
+                    also choose to email all our subscribed users with the new details. If required by law, we will get your permission 
                     or give you the opportunity to opt out of any new uses of your data.
                 </p>
             </article>
