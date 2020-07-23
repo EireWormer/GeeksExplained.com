@@ -94,10 +94,17 @@ if(isset($_COOKIE['GeeksExplainedAnalytics'])) {
                 <?php 
                 include './ge_scripts/php/print_article_summary.php'; 
                 #167 character summary
-                $title = "Power supply (and all it's cables)";
-                $summary = "When I built my first personal computer, I can remember the confusion of the entire process. There were so many different components to keep track of; however, the pow";
-                $link = "./article/2020/07/08/power-supply-and-all-its-cables";
+                $title = "Standard Contractual Clauses (SCCs)";
+                $summary = "Last week (July 16, 2020) the European Union’s Court of Justice decided on Facebook Ireland Ltd v. Maximillian Schrems in Case C 311/18.  The decision of the court was";
+                $link = "./article/2020/07/23/standard-contactual-clauses";
                 printArticleSummary($title, $summary, $link);
+                
+                #include './ge_scripts/php/print_article_summary.php'; 
+                #167 character summary
+                #$title = "Power supply (and all it's cables)";
+                #$summary = "When I built my first personal computer, I can remember the confusion of the entire process. There were so many different components to keep track of; however, the pow";
+                #$link = "./article/2020/07/08/power-supply-and-all-its-cables";
+                #printArticleSummary($title, $summary, $link);
                 ?>
             </article>
         </main>
