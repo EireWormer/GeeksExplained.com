@@ -47,24 +47,24 @@ if(isset($_COOKIE['GeeksExplainedAnalytics'])) {
     <!-- metadata -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="In this GeeksExplained article, we explain the purpose and use of a power supply unit (PSU) in a computer. We also list the different power supply (PSU) cables and their purposes, uses, and placements on the motherboard (mainboard).">
+    <meta name="description" content="In this GeeksExplained article, we explain EU court of justice's decision to invalidate EU-US Privacy Shield and how to continue with personal data transfer through Standard Contractual Clauses (SCCs).">
     <meta name="keywords" content="computer geek, programming, geeksexplained, geek, explained, casually explained">
     <meta name="theme-color" content="#009b48" />
-    <title>Power supply (and it's cables) | GeeksExplained</title>
+    <title>Standard Contractual Clauses (SCCs) | GeeksExplained</title>
     <link rel="shortcut icon" href="https://www.geeksexplained.com/ge_assets/img/icon/favicon.ico" type="image/x-icon" />
     
     <!-- Open Graph  -->
-    <meta property="og:title" content="Power supply (and it's cables) | GeeksExplained" />
+    <meta property="og:title" content="Standard Contractual Clauses (SCCs) | GeeksExplained" />
     <meta property="og:type" content="article" />
-    <meta property="article:published_time" content="2020-06-19T12:00:00" />
-    <meta property="article:modified_time" content="2020-06-19T112:00:00" />
-    <meta property="og:url" content="https://www.geeksexplained.com/article/2020/06/21/power-supply-and-all-its-cables" />
-    <meta property="og:image" content="https://www.geeksexplained.com/article/2020/06/21/power-supply.jpg">
+    <meta property="article:published_time" content="2020-07-24T00:30:00" />
+    <meta property="article:modified_time" content="2020-07-24T112:30:00" />
+    <meta property="og:url" content="https://www.geeksexplained.com/article/2020/07/24/standard-contactual-clauses" />
+    <meta property="og:image" content="https://www.geeksexplained.com/article/2020/07/24/social-media-image.png">
     <meta property="og:image:type" content="image/png">
     <meta property="og:image:width" content="200">
     <meta property="og:image:height" content="200">
-    <meta property="og:image:alt" content="A personal computer's power supply unit.">
-    <meta property="og:description" content="In this GeeksExplained article, we explain the purpose and use of a power supply unit (PSU) in a computer. We also list the different power supply (PSU) cables and their purposes, uses, and placements on the motherboard (mainboard)." />
+    <meta property="og:image:alt" content="Maximillian Schrems vs Facebook Ireland Ltd.">
+    <meta property="og:description" content="In this GeeksExplained article, we explain EU court of justice's decision to invalidate EU-US Privacy Shield and how to continue with personal data transfer through Standard Contractual Clauses (SCCs)." />
     <meta property="og:locale" content="en_IE" />
     <meta property="og:locale:alternate" content="en_GB" />
     <meta property="og:site_name" content="GeeksExplained" />
