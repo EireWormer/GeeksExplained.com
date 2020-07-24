@@ -69,7 +69,7 @@ if(isset($_COOKIE['GeeksExplainedAnalytics'])) {
         <main>
             <article class="card">
                 <article class="container">
-                    <div class="card_title">Thank you!</div>
+                    <div class="card_title">Thank you! We will get back to you soon.</div>
                 </article>
             </article>
         </main>

@@ -102,7 +102,7 @@ if(isset($_COOKIE['GeeksExplainedAnalytics'])) {
                 </figure>
 
                 <p>
-                    Firstly, let my preface this article with a disclaimer: I am not a legal professional and the information 
+                    Firstly, let me preface this article with a disclaimer: I am not a legal professional and the information 
                     contained within this article should not be interpreted as legal advice. Should you require legal advice, 
                     please consult a lawyer. With that being said, I will clearly outline what is directly quoted from statute 
                     and anything not clearly labelled as statute is my interpretation/opinion. 
@@ -115,8 +115,8 @@ if(isset($_COOKIE['GeeksExplainedAnalytics'])) {
                     bases for personal data transfer in order to avoid illegal transfers of Personally Identifiable Information 
                     (PII) under the General Data Protection Regulation (GDPR). 
                     <br><br>
-                    The ruling was complex and can be found in <a href="http://curia.europa.eu/juris/document/document.jsf;jsessionid=CF8C3306269B9356ADF861B57785FDEE?text=&docid=228677&pageIndex=0&doclang=EN&mode=req&dir=&occ=first&part=1&cid=9812784" style="color: var(--primary);">here</a> 
-                    or in our bibliography, but it focused greatly on U.S. surveillance programmes such as FISA and PRISM being 
+                    The ruling was complex and can be found <a href="http://curia.europa.eu/juris/document/document.jsf;jsessionid=CF8C3306269B9356ADF861B57785FDEE?text=&docid=228677&pageIndex=0&doclang=EN&mode=req&dir=&occ=first&part=1&cid=9812784" style="color: var(--primary);">here</a> 
+                    or in the bibliography, but it focused greatly on U.S. surveillance programmes such as FISA and PRISM being 
                     unjustly prioritized ahead of EU person’s rights and freedoms to data privacy and protection. In particular, 
                     they noted how in theory there are <q cite="http://curia.europa.eu/juris/document/document.jsf;jsessionid=CF8C3306269B9356ADF861B57785FDEE?text=&docid=228677&pageIndex=0&doclang=EN&mode=req&dir=&occ=first&part=1&cid=9812784"><em>a number of avenues of redress when they have been the subject of unlawful 
                     (electronic) surveillance for national security purposes… where judicial redress possibilities in principle do 
@@ -133,7 +133,7 @@ if(isset($_COOKIE['GeeksExplainedAnalytics'])) {
                 <p>
                     Although Schrems also challenged the validity of Standard Contractual Clauses (SCCs), the court decided <q cite="http://curia.europa.eu/juris/document/document.jsf;jsessionid=CF8C3306269B9356ADF861B57785FDEE?text=&docid=228677&pageIndex=0&doclang=EN&mode=req&dir=&occ=first&part=1&cid=9812784"><em>Examination of Commission Decision… 
                     on standard contractual clauses… has disclosed nothing to affect the validity of that decision</em></q><sup>[7]</sup>. This means that 
-                    SCCs are still a valid offer of sufficient safeguards on data protection for the data to be transferred internationally. 
+                    SCCs are still a valid offer of sufficient safeguards on data protection for the PII to be transferred internationally. 
                     The European Commission website <sup>[1]</sup> directs us to three commission decisions that provide SCCs. These three 
                     decisions are:
                     <ul>
@@ -143,7 +143,7 @@ if(isset($_COOKIE['GeeksExplainedAnalytics'])) {
                     </ul>
                     <br>
                     The SCCs can be divided up into two categories: data transfers from controllers in the EU to controllers outside the EU 
-                    or European Economic Area (EEA); and data transfers from data controller in the EU to processors outside the EU or EEA.
+                    or European Economic Area (EEA); and data transfers from controllers in the EU to processors outside the EU or EEA.
                     <br><br>
                     The SCCs directly refer to the use of definitions from the Data Protection Directive (Directive 95/46/EC <sup>[5]</sup>). The 
                     commission is planning to update the SCCs for the GDPR. Until they do, you can still enter contracts based on the directive 
