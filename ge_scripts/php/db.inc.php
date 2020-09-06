@@ -1,8 +1,8 @@
 <?php
-$dbhostIP = "127.0.0.1";
-$dbusername = "geekbrfs";
-$dbpassword = "GDNjSdDDsueH";
-$database = "geekbrfs_geeksexplained";
+$dbhostIP = "";
+$dbusername = "";
+$dbpassword = "";
+$database = "";
 
 $con = mysqli_connect( $dbhostIP, $dbusername, $dbpassword, $database );
 
