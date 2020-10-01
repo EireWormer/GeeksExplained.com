@@ -50,6 +50,7 @@ if(isset($_COOKIE['GeeksExplainedAnalytics'])) {
         }
     }
     ?>
+    <script async src="https://cse.google.com/cse.js?cx=010287655288996069757:hr-e9mhjfue"></script>
 
     <!-- metadata -->
 	<meta charset="utf-8">
@@ -182,5 +183,13 @@ if(isset($_COOKIE['GeeksExplainedAnalytics'])) {
     <script src="https://www.geeksexplained.com/ge_scripts/js/subPopupBox.js"></script>
     <script src="https://www.geeksexplained.com/ge_scripts/js/sideBarAnimation.js"></script>
     <script src="../ge_scripts/js/cookieOptOutPopupBox.js"></script>
+    <script> 
+        window.onload = function cleanup() {
+            var elem = document.getElementById("___gcse_0");
+            if (elem) {
+                elem.style.visibility = "hidden";
+            }
+        }
+    </script>
 </body> 	
 </html>
